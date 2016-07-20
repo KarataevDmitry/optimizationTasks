@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Task>
+  <TargetFunction>4*x^2+2*x+4</TargetFunction>
+  <Direction>Minimum</Direction>
+  <Variable>x</Variable>
+  <OptimumInterval>[-1;1]</OptimumInterval>
+</Task>

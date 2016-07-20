@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptimisationTasksEditor", "OptimisationTasksEditor\OptimisationTasksEditor.csproj", "{D54E9958-16D7-433F-955F-B44EE822452F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptimisationTaskTests", "OptimisationTaskTests\OptimisationTaskTests.csproj", "{0127F7C3-565D-4758-B902-A3F458F2A0D4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedAppComps", "SharedAppComps\SharedAppComps.shproj", "{00FB43D6-A878-424D-B9E4-E9EA645FAD08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELW.Library.Math", "packages\mathcompiler-0102-src\ELW.Library.Math\ELW.Library.Math.csproj", "{0374C9F1-8508-421C-82A7-8D5DADB2B49A}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedAppComps\SharedAppComps.projitems*{00fb43d6-a878-424d-b9e4-e9ea645fad08}*SharedItemsImports = 13
+		SharedAppComps\SharedAppComps.projitems*{d54e9958-16d7-433f-955f-b44ee822452f}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D54E9958-16D7-433F-955F-B44EE822452F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54E9958-16D7-433F-955F-B44EE822452F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54E9958-16D7-433F-955F-B44EE822452F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54E9958-16D7-433F-955F-B44EE822452F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0127F7C3-565D-4758-B902-A3F458F2A0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0127F7C3-565D-4758-B902-A3F458F2A0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0127F7C3-565D-4758-B902-A3F458F2A0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0127F7C3-565D-4758-B902-A3F458F2A0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0374C9F1-8508-421C-82A7-8D5DADB2B49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0374C9F1-8508-421C-82A7-8D5DADB2B49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0374C9F1-8508-421C-82A7-8D5DADB2B49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0374C9F1-8508-421C-82A7-8D5DADB2B49A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

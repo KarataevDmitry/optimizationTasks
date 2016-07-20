@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="SharedProjectFile_SccProperties">
+    <SharedProjectFile_ProjectGuid>{a010be65-0463-4d81-af3b-fac45b367a1c}</SharedProjectFile_ProjectGuid>
+    <SharedProjectFile_SccProjectName>SAK</SharedProjectFile_SccProjectName>
+    <SharedProjectFile_SccAuxPath>SAK</SharedProjectFile_SccAuxPath>
+    <SharedProjectFile_SccLocalPath>SAK</SharedProjectFile_SccLocalPath>
+    <SharedProjectFile_SccProvider>SAK</SharedProjectFile_SccProvider>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>00fb43d6-a878-424d-b9e4-e9ea645fad08</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>OptimisationTasks</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)DataStructures\LinearProgramming\LinearTask.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataStructures\LinearProgramming\Matrix.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataStructures\OptTypes1D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataStructures\Task1D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileOperations\TaskReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileOperations\TaskWriter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Optimisation\GoldenPropOptimisator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Optimisation\Linear\ILinearOptimizer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Optimisation\Linear\Simplex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Optimisation\Linear\SimplexOptimizer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Optimisation\OptimisationMethod.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UICommands\UICommands.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilites\ExpressionValidator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilites\TableParser.cs" />
+  </ItemGroup>
+</Project>

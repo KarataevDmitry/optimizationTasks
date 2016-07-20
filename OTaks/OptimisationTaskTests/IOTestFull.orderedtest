@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="iotestfull" storage="e:\docs\учеба\методы оптимизации\optimisationtasks\optimisationtasktests\iotestfull.orderedtest" id="4b561a00-7543-44f2-8f9e-e28baabd5f19" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="1abcaebe-5526-60c2-44ba-4a59601885a2" name="TestWriteTask" storage="bin\debug\optimisationtasktests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="0e648905-66ed-ce37-d113-8ec62ee67443" name="TestReadTask" storage="bin\debug\optimisationtasktests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>
