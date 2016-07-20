@@ -65,15 +65,15 @@
     <Compile Include="ValidationTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OptimisationTasks\OptimisationTasks.csproj">
-      <Project>{d7be4dd6-e39b-4b94-aa62-7f08a14b0f83}</Project>
-      <Name>OptimisationTasks</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="IOTestFull.orderedtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OptimisationTasksEditor\OptimisationTasksEditor.csproj">
+      <Project>{d54e9958-16d7-433f-955f-b44ee822452f}</Project>
+      <Name>OptimisationTasksEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

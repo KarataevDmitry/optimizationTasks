@@ -13,7 +13,7 @@ namespace OptimisationTaskTests
         {
             Task1D t = new Task1D("tg(x)", OptKind.Maximum, "x");
             double f0_actual = t.GetFuncResult(Math.PI);
-            double f0_excepted = Math.Tan(Math.PI/2);
+            double f0_excepted = Math.Tan(Math.PI);
             Assert.AreEqual(f0_excepted, f0_actual);
             double f1_actual = t.GetFuncResult(Math.PI/4);
             double f1_excepted = Math.Tan(Math.PI/4);
