@@ -9,7 +9,12 @@
         Width="300"
         Title="MVVM Light Application"
         DataContext="{Binding Main, Source={StaticResource Locator}}">
-    
+    <Window.InputBindings>
+        <KeyBinding Key="C"
+                    Modifiers="Alt"
+                    Command="{Binding MyCommand}">
+        </KeyBinding>
+    </Window.InputBindings>
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
