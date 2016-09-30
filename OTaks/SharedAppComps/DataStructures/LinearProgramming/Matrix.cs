@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Text;
-using System.Windows.Controls;
+#if GUIApp
 using System.Windows.Forms;
+#endif
 
 namespace OptimisationTasks.DataStructures.LinearProgramming
 {
@@ -61,6 +60,7 @@ namespace OptimisationTasks.DataStructures.LinearProgramming
 
 
         IEnumerator IEnumerable.GetEnumerator ( ) => data.GetEnumerator();
+#if GUIApp
         public void WriteToDataGrid ( DataGridView dg )
         {
             dg.RowCount = RowCount;
@@ -68,18 +68,19 @@ namespace OptimisationTasks.DataStructures.LinearProgramming
             for ( int i = 0 ; i < RowCount ; i++ )
                 for ( int j = 0 ; j < ColCount ; j++ )
                 {
-                    dg.Rows [ i ].Cells [ j ].Value = data[i,j];
+                    dg.Rows [ i ].Cells [ j ].Value = data [ i, j ];
                 }
         }
         public void ReadFromDataGrid ( DataGridView dg )
         {
-            data = new double[ dg.RowCount, dg.ColumnCount ];
+            data = new double [ dg.RowCount, dg.ColumnCount ];
             for ( int i = 0 ; i < RowCount ; i++ )
                 for ( int j = 0 ; j < ColCount ; j++ )
                 {
                     data [ i, j ] = Convert.ToDouble(dg.Rows [ i ].Cells [ j ].Value);
                 }
         }
+#endif
         public double[,] ToArray()
         {
             double [ , ] arr = new double [ data.GetLength(0), data.GetLength(1) ];

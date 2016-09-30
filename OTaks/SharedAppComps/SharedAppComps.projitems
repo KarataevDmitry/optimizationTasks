@@ -27,8 +27,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Optimisation\Linear\Simplex.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Optimisation\Linear\SimplexOptimizer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Optimisation\OptimisationMethod.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)UICommands\UICommands.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilites\ExpressionValidator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilites\TableParser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)UICommands\" />
   </ItemGroup>
 </Project>

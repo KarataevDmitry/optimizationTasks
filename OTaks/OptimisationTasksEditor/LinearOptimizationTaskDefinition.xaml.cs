@@ -38,7 +38,9 @@ namespace OptimisationTasksEditor
             int rowCount = Convert.ToInt32(tbxRowCount.Text);
             int colCount = Convert.ToInt32(tbxColCount.Text);
             OptimisationTasks.DataStructures.LinearProgramming.Matrix m = new OptimisationTasks.DataStructures.LinearProgramming.Matrix(rowCount, colCount);
+#if GUIApp
             m.WriteToDataGrid(dg);
+#endif
 
             dg.Columns [ 0 ].HeaderText = "B";
             for ( int i = 1 ; i < dg.ColumnCount ; i++ )
@@ -67,8 +69,9 @@ namespace OptimisationTasksEditor
         {
             DataGridView dg = ( (DataGridView) winforms.Child );
             OptimisationTasks.DataStructures.LinearProgramming.Matrix m = new OptimisationTasks.DataStructures.LinearProgramming.Matrix(dg.RowCount, dg.ColumnCount);
-           
+#if GUIApp
             m.ReadFromDataGrid(dg);
+#endif
             LinearTask lt = new LinearTask(m);
             SimplexOptimizer S = new SimplexOptimizer();
             StringBuilder sb = new StringBuilder();

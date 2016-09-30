@@ -19,15 +19,15 @@ namespace OptimisationTasks.OptimisationMethods
         /// <summary>
         /// Золотое сечение
         /// </summary>
-        private double Phi = (1 + Math.Sqrt(5)) / 2;
+        private double GoldenProportion = (1 + Math.Sqrt(5)) / 2;
         /// <see cref="OptimizationMethod.Optimise(Task1D, double)"/>
         public override double? Optimise(Task1D t, double eps=0.001)
         {
             Interval inter = t.OptimumInterval;
-                double a = inter.Left;
-                double b = inter.Right;
-                double x1 = b - inter.Length / Phi;
-                double x2 = a + inter.Length / Phi;
+                double LeftEnd = inter.Left;
+                double RightEnd = inter.Right;
+                double firstPoint = RightEnd - inter.Length / GoldenProportion;
+                double secondPoint = LeftEnd + inter.Length / GoldenProportion;
             double optval;
             switch (t.OptimumType)
             {
@@ -35,22 +35,22 @@ namespace OptimisationTasks.OptimisationMethods
                     {
                         do
                         {
-                            double res1 = t.GetFuncResult(x1);
-                            double res2 = t.GetFuncResult(x2);
+                            double res1 = t.GetFuncResult(firstPoint);
+                            double res2 = t.GetFuncResult(secondPoint);
                             if (res1 <= res2)
                             {
-                                a = x1;
-                                x1 = x2;
-                                x2 = a + (b - a) / Phi;
+                                LeftEnd = firstPoint;
+                                firstPoint = secondPoint;
+                                secondPoint = LeftEnd + (RightEnd - LeftEnd) / GoldenProportion;
                             }
                             else
                             {
-                                b = x2;
-                                x2 = x1;
-                                x1 = b - (b - a) / Phi;
+                                RightEnd = secondPoint;
+                                secondPoint = firstPoint;
+                                firstPoint = RightEnd - (RightEnd - LeftEnd) / GoldenProportion;
                             }
-                        } while (Math.Abs(b - a) >= eps);
-                        optval = (a + b) / 2;
+                        } while (Math.Abs(RightEnd - LeftEnd) >= eps);
+                        optval = (LeftEnd + RightEnd) / 2;
                         if (IsOptimum(optval, OptKind.Maximum, t)) return optval;
                         else return null; 
                     }
@@ -60,22 +60,22 @@ namespace OptimisationTasks.OptimisationMethods
                     case OptKind.Minimum: 
                             do
                             {
-                                double res1 = t.GetFuncResult(x1);
-                                double res2 = t.GetFuncResult(x2);
+                                double res1 = t.GetFuncResult(firstPoint);
+                                double res2 = t.GetFuncResult(secondPoint);
                                 if (res1 >= res2)
                                 {
-                                    a = x1;
-                                    x1 = x2;
-                                    x2 = a + (b - a) / Phi;
+                                    LeftEnd = firstPoint;
+                                    firstPoint = secondPoint;
+                                    secondPoint = LeftEnd + (RightEnd - LeftEnd) / GoldenProportion;
                                 }
                                 else
                                 {
-                                    b = x2;
-                                    x2 = x1;
-                                    x1 = b - (b - a) / Phi;
+                                    RightEnd = secondPoint;
+                                    secondPoint = firstPoint;
+                                    firstPoint = RightEnd - (RightEnd - LeftEnd) / GoldenProportion;
                                 }
-                            } while (Math.Abs(b - a) >= eps);
-                    optval = (a + b) / 2;
+                            } while (Math.Abs(RightEnd - LeftEnd) >= eps);
+                    optval = (LeftEnd + RightEnd) / 2;
                     if (IsOptimum(optval, OptKind.Minimum, t))  return optval;
                     else return null;
             }
