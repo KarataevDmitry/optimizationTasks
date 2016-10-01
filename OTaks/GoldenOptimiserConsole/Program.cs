@@ -19,10 +19,22 @@ namespace GoldenOptimiserConsole
             OptKind kind = OptKind.NotSet;
             Console.WriteLine("Выберите вид оптимума:");
             Console.WriteLine("1.Максимум" + Environment.NewLine + "2.Минимум");
-            Console.Write("Ваш выбор");
-            var choice = int.Parse(Console.ReadLine());
-            if ( choice == 1 ) kind = OptKind.Maximum;
-            if ( choice == 2 ) kind = OptKind.Minimum;
+            int choice;
+            do
+            {
+                Console.Write("Ваш выбор: ");
+                choice = int.Parse(Console.ReadLine());
+                switch ( choice )
+                {
+                    case 1: kind = OptKind.Maximum;
+                            break;
+                    case 2: kind = OptKind.Minimum;
+                        break;
+                    default:
+                        Console.WriteLine("Неверное значение");
+                        break;
+                }
+            } while (!( ( choice == 1 ) || ( choice == 2 ) )); 
             Console.Write("Введите имя переменной: ");
             string vName = Console.ReadLine();
 
