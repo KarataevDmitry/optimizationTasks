@@ -14,24 +14,24 @@ namespace GoldenOptimiserConsole
         static void Main ( string [ ] args )
         {
             Console.Write("Введите отрезок, на котором искать оптимум(В форме [a;b] или a;b: ");
-            var inter = new Interval(Console.ReadLine());
-
-            Console.Write("Выберите вид оптимума " + "(+ - максимум(по умолчанию), - - минимум): ");
-            char c = (char) Console.Read();
+            string interval = Console.ReadLine();
+            Interval inter = new Interval(interval);
             OptKind kind = OptKind.NotSet;
-            if ( c == '+' )
-                kind = OptKind.Maximum;
-            else
-                kind = OptKind.Minimum;
-            string vName = "";
+            Console.WriteLine("Выберите вид оптимума:");
+            Console.WriteLine("1.Максимум" + Environment.NewLine + "2.Минимум");
+            Console.Write("Ваш выбор");
+            var choice = int.Parse(Console.ReadLine());
+            if ( choice == 1 ) kind = OptKind.Maximum;
+            if ( choice == 2 ) kind = OptKind.Minimum;
             Console.Write("Введите имя переменной: ");
-            vName = Console.ReadLine();
+            string vName = Console.ReadLine();
 
             var optimiser = new GoldenPropOptimisator();
             Console.Write("Введите функцию, которую будем оптимизировать: ");
             var func = Console.ReadLine();
             var t = new Task1D(func, kind, vName, inter);
             Console.WriteLine(optimiser.Optimise(t));
+            Console.ReadLine();
         }
         
 
