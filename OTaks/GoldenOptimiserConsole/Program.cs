@@ -26,9 +26,9 @@ namespace GoldenOptimiserConsole
                 choice = int.Parse(Console.ReadLine());
                 switch ( choice )
                 {
-                    case 1: kind = OptKind.Maximum;
+                    case (int) OptKind.Maximum: kind = OptKind.Maximum;
                             break;
-                    case 2: kind = OptKind.Minimum;
+                    case (int)OptKind.Minimum: kind = OptKind.Minimum;
                         break;
                     default:
                         Console.WriteLine("Неверное значение");

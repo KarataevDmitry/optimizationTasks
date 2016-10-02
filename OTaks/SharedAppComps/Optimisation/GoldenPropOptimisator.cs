@@ -23,7 +23,7 @@ namespace OptimisationTasks.OptimisationMethods
         /// <see cref="OptimizationMethod.Optimise(Task1D, double)"/>
         public override double? Optimise(Task1D t, double eps=0.001)
         {
-            Interval inter = t.OptimumInterval;
+                Interval inter = t.OptimumInterval;
                 double LeftEnd = inter.Left;
                 double RightEnd = inter.Right;
                 double firstPoint = RightEnd - inter.Length / GoldenProportion;
@@ -85,16 +85,22 @@ namespace OptimisationTasks.OptimisationMethods
         private bool IsOptimum(double val, OptKind optKind, Task1D t)
         {
             bool isOpt = false;
-            if (optKind == OptKind.Maximum)
+            switch ( optKind )
             {
-                if (t.GetFuncResult(val) > t.GetFuncResult(val - 0.001) &&
-                   t.GetFuncResult(val) > t.GetFuncResult(val + 0.001)) isOpt=true;
+                case OptKind.Maximum:
+                    if ( t.GetFuncResult(val) > t.GetFuncResult(val - 0.001) &&
+                    t.GetFuncResult(val) > t.GetFuncResult(val + 0.001) )
+                    isOpt = true;
+                    break;
+                case OptKind.Minimum:
+                    if ( t.GetFuncResult(val) < t.GetFuncResult(val - 0.001) &&
+                      t.GetFuncResult(val) < t.GetFuncResult(val + 0.001) )
+                        isOpt = true;
+                    break;
+                default:
+                    break;
             }
-            if (optKind==OptKind.Minimum)
-            {
-                if (t.GetFuncResult(val) < t.GetFuncResult(val - 0.001) &&
-                       t.GetFuncResult(val) < t.GetFuncResult(val + 0.001)) isOpt=true;
-            }
+
             return isOpt;
         }
 

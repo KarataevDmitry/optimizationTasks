@@ -55,8 +55,8 @@ namespace OptimisationTasks.DataStructures
     /// </summary>
     public enum OptKind
     {
-        Maximum = 0,
-        Minimum = 1,
+        Maximum = 1,
+        Minimum = 2,
         NotSet = -1
     };
 }

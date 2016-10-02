@@ -19,10 +19,13 @@ namespace OptimisationTasks.OptimisationMethods
         /// Выполняет поиск оптимального решения в направлении 
         /// <paramref>d</paramref>, которое может отличаться от заданного в описании 
         /// </summary>
-        /// <param name="t">Задача на оптимизацию, полученная из внешнего XML-файла</param>
+        /// <param name="pathToFile">Путь до файла с задачей</param>
         /// <param name="d">Вид (направление) оптимума</param>
-        public double? Optimise(Task1D t, OptKind d, double eps) => 
-            Optimise(new Task1D(t.TargetFunction, d, t.VariableName, t.OptimumInterval), eps);
+        public double? Optimise(string pathToFile, OptKind d, double eps)
+            {
+            var task = TaskReader.ReadTaskFromFile(pathToFile);
+            return Optimise(new Task1D(task.TargetFunction, d, task.VariableName, task.OptimumInterval), eps);
+            }
         /// <summary>
         /// Читает описание задачи из файла и вызывает <code>this.Optimise(Task1D t)</code> для решения задачи
         /// </summary>
