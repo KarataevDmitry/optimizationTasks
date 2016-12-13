@@ -51,15 +51,6 @@ namespace OptimisationTaskTests
             double excepted = -0.25;
             Assert.IsTrue(Math.Abs(excepted - actual.Value) < 0.001);
         }
-        [TestCategory("Optimisation1D")]
-        [TestMethod]
-        public void GoldenPropChangeDir()
-        {
-            Task1D t = new Task1D("x^2+4*x+6", OptKind.Maximum, "x", new Interval(-3, -1));
-            GoldenPropOptimisator gp = new GoldenPropOptimisator();
-            double? actual_n = gp.Optimise(t, OptKind.Minimum, 0.001);
-            double expected = -4 / 2;
-            Assert.IsTrue(Math.Abs(expected - actual_n.Value) < 0.001);
-        }
+       
     }
 }
