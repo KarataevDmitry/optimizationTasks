@@ -34,15 +34,43 @@ namespace GoldenOptimiserConsole
                         Console.WriteLine("Неверное значение");
                         break;
                 }
-            } while (!( ( choice == 1 ) || ( choice == 2 ) )); 
-            Console.Write("Введите имя переменной: ");
-            string vName = Console.ReadLine();
+            } while (!( ( choice == 1 ) || ( choice == 2 ) ));
+            var vName = "x";
 
             var optimiser = new GoldenPropOptimisator();
-            Console.Write("Введите функцию, которую будем оптимизировать: ");
+            Console.Write("Введите функцию от x, которую будем оптимизировать: ");
             var func = Console.ReadLine();
             var t = new Task1D(func, kind, vName, inter);
-            Console.WriteLine(optimiser.Optimise(t));
+            string s="";
+            switch ( t.OptimumType )
+            {
+                case OptKind.Maximum:
+                    s = "Максимум";
+                    break;
+                case OptKind.Minimum:
+                    s = "Минимум";
+                    break;
+                case OptKind.NotSet:
+                  
+                    break;
+                default:
+                    break;
+            }
+            double? v = null;
+            try
+            {
+                 v = optimiser.Optimise(t);
+                
+            }
+            catch ( Exception e)
+            {
+
+                Console.WriteLine($"Что-то пошло не так, а именно: {e.Message}");
+            }
+            if ( v.HasValue )
+                Console.WriteLine($"{s} в точке {v.Value}");
+            else
+                Console.WriteLine("Нет экстремума на промежутке");
             Console.ReadLine();
         }
         

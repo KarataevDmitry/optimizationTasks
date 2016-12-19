@@ -35,8 +35,11 @@ namespace OptimisationTasksEditor
             DataGridView dg = new System.Windows.Forms.DataGridView();
             dg.AllowUserToAddRows = false;
             dg.AllowUserToDeleteRows = false;
+            
             int rowCount = Convert.ToInt32(tbxRowCount.Text);
             int colCount = Convert.ToInt32(tbxColCount.Text);
+            dg.ColumnCount = colCount;
+            dg.RowCount = rowCount;
             OptimisationTasks.DataStructures.LinearProgramming.Matrix m = new OptimisationTasks.DataStructures.LinearProgramming.Matrix(rowCount, colCount);
 #if GUIApp
             m.WriteToDataGrid(dg);
