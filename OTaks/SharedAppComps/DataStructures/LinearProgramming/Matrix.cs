@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.ComponentModel;
-#if GUIApp
-using System.Windows.Forms;
-#endif
+
 
 namespace OptimisationTasks.DataStructures.LinearProgramming
 {
@@ -60,8 +58,7 @@ namespace OptimisationTasks.DataStructures.LinearProgramming
 
 
         IEnumerator IEnumerable.GetEnumerator ( ) => data.GetEnumerator();
-#if GUIApp
-        public void WriteToDataGrid ( DataGridView dg )
+        public void WriteToDataGrid ( System.Windows.Forms.DataGridView dg )
         {
             dg.RowCount = RowCount;
             dg.ColumnCount = ColCount;
@@ -71,7 +68,7 @@ namespace OptimisationTasks.DataStructures.LinearProgramming
                     dg.Rows [ i ].Cells [ j ].Value = data [ i, j ];
                 }
         }
-        public void ReadFromDataGrid ( DataGridView dg )
+        public void ReadFromDataGrid ( System.Windows.Forms.DataGridView dg )
         {
             data = new double [ dg.RowCount, dg.ColumnCount ];
             for ( int i = 0 ; i < RowCount ; i++ )
@@ -80,7 +77,7 @@ namespace OptimisationTasks.DataStructures.LinearProgramming
                     data [ i, j ] = Convert.ToDouble(dg.Rows [ i ].Cells [ j ].Value);
                 }
         }
-#endif
+
         public double[,] ToArray()
         {
             double [ , ] arr = new double [ data.GetLength(0), data.GetLength(1) ];

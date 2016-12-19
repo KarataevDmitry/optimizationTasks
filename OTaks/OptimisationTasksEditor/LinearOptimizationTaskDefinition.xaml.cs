@@ -1,20 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using OptimisationTasks.DataStructures.LinearProgramming;
-using OptimisationTasks.OptimisationMethods.Linear;
 using System.Windows.Forms;
 using OptimisationTasks.Optimisation.Linear;
 
@@ -40,10 +28,9 @@ namespace OptimisationTasksEditor
             int colCount = Convert.ToInt32(tbxColCount.Text);
             dg.ColumnCount = colCount;
             dg.RowCount = rowCount;
-            OptimisationTasks.DataStructures.LinearProgramming.Matrix m = new OptimisationTasks.DataStructures.LinearProgramming.Matrix(rowCount, colCount);
-#if GUIApp
+            Matrix m = new Matrix(rowCount, colCount);
             m.WriteToDataGrid(dg);
-#endif
+
 
             dg.Columns [ 0 ].HeaderText = "B";
             for ( int i = 1 ; i < dg.ColumnCount ; i++ )
@@ -71,10 +58,8 @@ namespace OptimisationTasksEditor
         private void btnSolve_Click ( object sender, RoutedEventArgs e )
         {
             DataGridView dg = ( (DataGridView) winforms.Child );
-            OptimisationTasks.DataStructures.LinearProgramming.Matrix m = new OptimisationTasks.DataStructures.LinearProgramming.Matrix(dg.RowCount, dg.ColumnCount);
-#if GUIApp
+            Matrix m = new Matrix(dg.RowCount, dg.ColumnCount);
             m.ReadFromDataGrid(dg);
-#endif
             LinearTask lt = new LinearTask(m);
             SimplexOptimizer S = new SimplexOptimizer();
             StringBuilder sb = new StringBuilder();
@@ -89,3 +74,4 @@ namespace OptimisationTasksEditor
         }
     }
 }
+

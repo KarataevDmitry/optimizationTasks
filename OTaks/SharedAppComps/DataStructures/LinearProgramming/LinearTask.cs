@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using OptimisationTasks.DataStructures.LinearProgramming;
-using OptimisationTasks.OptimisationMethods.Linear;
+﻿using OptimisationTasks.OptimisationMethods.Linear;
 
 namespace OptimisationTasks.DataStructures.LinearProgramming
 {
