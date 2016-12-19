@@ -13,7 +13,7 @@ namespace GoldenOptimiserConsole
     {
         static void Main ( string [ ] args )
         {
-            Console.Write("Введите отрезок, на котором искать оптимум(В форме [a;b] или a;b: ");
+            Console.Write("Введите отрезок, на котором искать оптимум (В форме [a;b] или a;b): ");
             string interval = Console.ReadLine();
             Interval inter = new Interval(interval);
             OptKind kind = OptKind.NotSet;
