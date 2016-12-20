@@ -47,10 +47,20 @@ namespace OptimisationTasks.OptimisationMethods.Linear
             {
                 int mainCol, mainRow; //ведущие столбец и строка
 
-                while (!IsItEnd())
+                while (true)
                 {
-                    mainCol = findMainCol();
-                    mainRow = findMainRow(mainCol);
+                mainCol = findMainCol();
+                mainRow = findMainRow(mainCol);
+                if (IsNoSolution(mainCol))
+                {
+                    result[0] = Double.NaN;
+                    return table;
+                   
+                    
+                }
+                if ( IsItOptimal() )
+                    break;
+
                     basis[mainRow] = mainCol;
 
                     double[,] new_table = new double[rows, cols];
@@ -66,9 +76,10 @@ namespace OptimisationTasks.OptimisationMethods.Linear
                         for (int j = 0; j < cols; j++)
                             new_table[i, j] = table[i, j] - table[i, mainCol] * new_table[mainRow, j];
                     }
+
                     table = new_table;
                 }
-
+               
                 //заносим в result найденные значения X
                 for (int i = 0; i < result.Length; i++)
                 {
@@ -82,7 +93,23 @@ namespace OptimisationTasks.OptimisationMethods.Linear
                 return table;
             }
 
-            private bool IsItEnd()
+        private bool IsNoSolution ( int mainCol )
+        {
+            bool flag = true;
+
+            for ( int i = 1 ; i < rows ; i++ )
+            {
+                if ( table [ i, mainCol ] > 0 )
+                {
+                    flag = false;
+                    break;
+                }
+               
+            }
+            return flag;
+        }
+
+        private bool IsItOptimal()
             {
                 bool flag = true;
 

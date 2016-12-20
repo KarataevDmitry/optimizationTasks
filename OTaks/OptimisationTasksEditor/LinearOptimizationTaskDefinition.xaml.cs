@@ -64,6 +64,11 @@ namespace OptimisationTasksEditor
             SimplexOptimizer S = new SimplexOptimizer();
             StringBuilder sb = new StringBuilder();
             double [ ] res = lt.Optimize(S);
+            if (double.IsNaN(res[0]))
+            {
+                System.Windows.MessageBox.Show("Задача не имеет решения ввиду неограниченности целевой функции.");
+                return;
+            }
             foreach ( var item in res )
             {
                 sb.Append(item);
