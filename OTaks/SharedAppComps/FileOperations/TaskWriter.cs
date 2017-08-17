@@ -22,11 +22,13 @@ namespace OptimisationTasks.FileOperations
                                                           )
                                               );
             if (writeTo == "")
-            {   
-                
-                SaveFileDialog sd = new SaveFileDialog();
-                sd.Filter = "XML Documents |*.xml";
-               
+            {
+
+                SaveFileDialog sd = new SaveFileDialog()
+                {
+                    Filter = "XML Documents |*.xml"
+                };
+
                 if (sd.ShowDialog() == true) writeTo = sd.FileName;
 
 

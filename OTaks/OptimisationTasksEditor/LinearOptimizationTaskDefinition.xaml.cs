@@ -20,10 +20,12 @@ namespace OptimisationTasksEditor
 
         private void btnCreateMatrix_Click ( object sender, RoutedEventArgs e )
         {
-            DataGridView dg = new System.Windows.Forms.DataGridView();
-            dg.AllowUserToAddRows = false;
-            dg.AllowUserToDeleteRows = false;
-            
+            DataGridView dg = new System.Windows.Forms.DataGridView()
+            {
+                AllowUserToAddRows = false,
+                AllowUserToDeleteRows = false
+            };
+
             int rowCount = Convert.ToInt32(tbxRowCount.Text);
             int colCount = Convert.ToInt32(tbxColCount.Text);
             dg.ColumnCount = colCount;

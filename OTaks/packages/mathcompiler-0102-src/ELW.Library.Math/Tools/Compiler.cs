@@ -295,9 +295,11 @@ namespace ELW.Library.Math.Tools {
             }
 
             public void PushComplexOperatorFirstSignature(Operation operation) {
-                PartialSignature signature = new PartialSignature();
-                signature.OperationName = operation.Name;
-                signature.SignaturePartNumber = 1;
+                PartialSignature signature = new PartialSignature()
+                {
+                    OperationName = operation.Name,
+                    SignaturePartNumber = 1
+                };
                 //
                 pushOperationAccordingToAssociationAndPriority(operation,
                                                                new OperationsStackItem(OperationStackItemKind.PartialSignature, signature));

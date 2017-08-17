@@ -1,0 +1,39 @@
+# Task1D - конструктор
+ 
+
+**Пространство имён:**&nbsp;<a href="N_OptimisationTasks_DataStructures">OptimisationTasks.DataStructures</a><br />**Сборка:**&nbsp;OptimisationTasksEditor (в OptimisationTasksEditor.exe) Версия: 1.0.0.0 (1.0.0.0)
+
+## Синтаксис
+
+**C#**<br />
+``` C#
+public Task1D(
+	string func,
+	OptKind dir,
+	string varName,
+	Interval interv = null
+)
+```
+
+**F#**<br />
+``` F#
+new : 
+        func : string * 
+        dir : OptKind * 
+        varName : string * 
+        ?interv : Interval 
+(* Defaults:
+        let _interv = defaultArg interv null
+*)
+-> Task1D
+```
+
+
+#### Параметры
+&nbsp;<dl><dt>func</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br /></dd><dt>dir</dt><dd>Тип:&nbsp;<a href="T_OptimisationTasks_DataStructures_OptKind">OptimisationTasks.DataStructures.OptKind</a><br /></dd><dt>varName</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br /></dd><dt>interv (Optional)</dt><dd>Тип:&nbsp;<a href="T_OptimisationTasks_DataStructures_Interval">OptimisationTasks.DataStructures.Interval</a><br /></dd></dl>
+
+## См. также
+
+
+#### Ссылки
+<a href="T_OptimisationTasks_DataStructures_Task1D">Task1D - Класс</a><br /><a href="N_OptimisationTasks_DataStructures">OptimisationTasks.DataStructures - пространство имён</a><br />

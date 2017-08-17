@@ -9,10 +9,9 @@ namespace ELW.Library.Math.Tools {
         public OperationsRegistry OperationsRegistry => _OperationsRegistry;
 
         public Parser(OperationsRegistry operationsRegistry) {
-            if (operationsRegistry == null)
-                throw new ArgumentNullException("operationsRegistry");
             //
-            _OperationsRegistry = operationsRegistry;
+            _OperationsRegistry = operationsRegistry ?? 
+                throw new ArgumentNullException("operationsRegistry");
         }
 
         /// <summary>
@@ -22,9 +21,11 @@ namespace ELW.Library.Math.Tools {
             if (sourceString == null)
                 throw new ArgumentNullException("sourceString");
             if (sourceString.Length == 0)
+            {
                 throw new ArgumentException("String is empty.", "sourceString");
+            }
             // Signatures lenghts
-            int[] lens = _OperationsRegistry.SignaturesLens;
+            int[ ] lens = _OperationsRegistry.SignaturesLens;
             //
             List<PreparedExpressionItem> res = new List<PreparedExpressionItem>();
             bool operandStarted = false;
@@ -97,14 +98,16 @@ namespace ELW.Library.Math.Tools {
             // Storing operand (constant or variable)
             if (operandStarted) {
                 string operandString = sourceString.Substring(operandStartIndex);
-                double constant;
-                if (Double.TryParse(operandString.Replace('.', ','), out constant)) {
-                    res.Add(new PreparedExpressionItem(PreparedExpressionItemKind.Constant, constant));
-                } else {
-                    if (!IsValidVariableName(operandString))
-                        throw new CompilerSyntaxException(String.Format("{0} is not valid variable identifier.", operandString));
+                if ( Double.TryParse( operandString.Replace( '.', ',' ), out var constant ) )
+                {
+                    res.Add( new PreparedExpressionItem( PreparedExpressionItemKind.Constant, constant ) );
+                }
+                else
+                {
+                    if ( !IsValidVariableName( operandString ) )
+                        throw new CompilerSyntaxException( String.Format( "{0} is not valid variable identifier.", operandString ) );
                     //
-                    res.Add(new PreparedExpressionItem(PreparedExpressionItemKind.Variable, operandString));
+                    res.Add( new PreparedExpressionItem( PreparedExpressionItemKind.Variable, operandString ) );
                 }
             }
             //

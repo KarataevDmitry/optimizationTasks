@@ -33,8 +33,10 @@ namespace OptimisationTasksEditor
 
         private void btnSaveTo_Click(object sender, RoutedEventArgs e)
         {
-            SaveFileDialog sd = new SaveFileDialog();
-            sd.Filter = "XML Documents |*.xml";
+            SaveFileDialog sd = new SaveFileDialog()
+            {
+                Filter = "XML Documents |*.xml"
+            };
             OptKind d = OptKind.NotSet;
                 if ( rbMaximize.IsChecked.Value )
                     d = OptKind.Maximum;
