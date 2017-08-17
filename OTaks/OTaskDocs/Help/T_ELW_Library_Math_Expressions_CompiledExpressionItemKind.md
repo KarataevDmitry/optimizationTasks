@@ -12,11 +12,6 @@ Type of compiled expression item's content.
 public enum CompiledExpressionItemKind
 ```
 
-**F#**<br />
-``` F#
-type CompiledExpressionItemKind
-```
-
 
 ## Члены
 &nbsp;<table><tr><th></th><th>Имя члена</th><th>Значение</th><th>Описание</th></tr><tr><td /><td target="F:ELW.Library.Math.Expressions.CompiledExpressionItemKind.Constant">**Constant**</td><td>1</td><td /></tr><tr><td /><td target="F:ELW.Library.Math.Expressions.CompiledExpressionItemKind.Variable">**Variable**</td><td>2</td><td /></tr><tr><td /><td target="F:ELW.Library.Math.Expressions.CompiledExpressionItemKind.Operation">**Operation**</td><td>3</td><td /></tr></table>

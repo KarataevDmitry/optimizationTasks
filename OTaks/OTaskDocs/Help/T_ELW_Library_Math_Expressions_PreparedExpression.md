@@ -15,12 +15,6 @@ Represents a prepared sequence of precompiled items for compiling.
 public sealed class PreparedExpression
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type PreparedExpression =  class end
-```
-
 Тип PreparedExpression предоставляет следующие члены.
 
 

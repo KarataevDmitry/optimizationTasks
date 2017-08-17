@@ -12,12 +12,6 @@
 public OptKind OptimumType { get; }
 ```
 
-**F#**<br />
-``` F#
-member OptimumType : OptKind with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="T_OptimisationTasks_DataStructures_OptKind">OptKind</a>

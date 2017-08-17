@@ -12,12 +12,6 @@
 public List<PreparedExpressionItem> PreparedExpressionItems { get; }
 ```
 
-**F#**<br />
-``` F#
-member PreparedExpressionItems : List<PreparedExpressionItem> with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/6sh2ey19" target="_blank">List</a>(<a href="T_ELW_Library_Math_Expressions_PreparedExpressionItem">PreparedExpressionItem</a>)

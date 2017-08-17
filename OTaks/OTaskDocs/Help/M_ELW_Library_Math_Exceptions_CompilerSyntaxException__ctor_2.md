@@ -14,12 +14,6 @@ public CompilerSyntaxException(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        message : string -> CompilerSyntaxException
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>message</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="message"/> отсутствует в документации для "M:ELW.Library.Math.Exceptions.CompilerSyntaxException.#ctor(System.String)"\]</dd></dl>

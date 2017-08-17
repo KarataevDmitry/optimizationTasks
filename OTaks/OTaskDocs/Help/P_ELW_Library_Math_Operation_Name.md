@@ -12,12 +12,6 @@ Operation name - unique string.
 public string Name { get; }
 ```
 
-**F#**<br />
-``` F#
-member Name : string with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">String</a>

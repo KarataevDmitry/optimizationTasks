@@ -14,13 +14,6 @@ public bool IsOperationDefined(
 )
 ```
 
-**F#**<br />
-``` F#
-member IsOperationDefined : 
-        name : string -> bool 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>name</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="name"/> отсутствует в документации для "M:ELW.Library.Math.OperationsRegistry.IsOperationDefined(System.String)"\]</dd></dl>

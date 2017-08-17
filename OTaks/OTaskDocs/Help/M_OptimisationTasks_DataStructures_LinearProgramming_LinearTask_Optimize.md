@@ -14,13 +14,6 @@ public double[] Optimize(
 )
 ```
 
-**F#**<br />
-``` F#
-member Optimize : 
-        method : ILinearOptimizer -> float[] 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>method</dt><dd>Тип:&nbsp;<a href="T_OptimisationTasks_OptimisationMethods_Linear_ILinearOptimizer">OptimisationTasks.OptimisationMethods.Linear.ILinearOptimizer</a><br />\[<param name="method"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.LinearProgramming.LinearTask.Optimize(OptimisationTasks.OptimisationMethods.Linear.ILinearOptimizer)"\]</dd></dl>

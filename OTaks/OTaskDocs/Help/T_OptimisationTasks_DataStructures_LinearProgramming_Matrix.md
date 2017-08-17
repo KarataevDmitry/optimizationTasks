@@ -15,15 +15,6 @@
 public sealed class Matrix : IEnumerable
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type Matrix =  
-    class
-        interface IEnumerable
-    end
-```
-
 Тип Matrix предоставляет следующие члены.
 
 
@@ -43,6 +34,10 @@ type Matrix =
 
 ## События
 &nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="E_OptimisationTasks_DataStructures_LinearProgramming_Matrix_MatrixChanged">MatrixChanged</a></td><td /></tr></table>&nbsp;
+<a href="#matrix---класс">В начало страницы</a>
+
+## Явные&nbsp;реализации&nbsp;интерфейсов
+&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Явные реализации интерфейса]( "Явные реализации интерфейса")![Закрытый метод]( "Закрытый метод")</td><td><a href="M_OptimisationTasks_DataStructures_LinearProgramming_Matrix_System_Collections_IEnumerable_GetEnumerator">IEnumerable.GetEnumerator</a></td><td /></tr></table>&nbsp;
 <a href="#matrix---класс">В начало страницы</a>
 
 ## См. также

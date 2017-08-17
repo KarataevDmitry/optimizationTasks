@@ -15,12 +15,6 @@ Implements a simple calculator calculates compiled expressions.
 public sealed class Calculator
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type Calculator =  class end
-```
-
 Тип Calculator предоставляет следующие члены.
 
 

@@ -15,12 +15,6 @@ Implements simple optimization logic (constants pre-calculating algorithm).
 public sealed class Optimizer
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type Optimizer =  class end
-```
-
 Тип Optimizer предоставляет следующие члены.
 
 

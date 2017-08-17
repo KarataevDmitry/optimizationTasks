@@ -12,12 +12,6 @@
 public void InitializeComponent()
 ```
 
-**F#**<br />
-``` F#
-abstract InitializeComponent : unit -> unit 
-override InitializeComponent : unit -> unit 
-```
-
 
 #### Реализации
 <a href="http://msdn2.microsoft.com/ru-ru/library/ms603526" target="_blank">IComponentConnector.InitializeComponent()</a><br />

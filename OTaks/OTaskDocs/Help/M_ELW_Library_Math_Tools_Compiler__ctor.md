@@ -14,12 +14,6 @@ public Compiler(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        operationsRegistry : OperationsRegistry -> Compiler
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>operationsRegistry</dt><dd>Тип:&nbsp;<a href="T_ELW_Library_Math_OperationsRegistry">ELW.Library.Math.OperationsRegistry</a><br />\[<param name="operationsRegistry"/> отсутствует в документации для "M:ELW.Library.Math.Tools.Compiler.#ctor(ELW.Library.Math.OperationsRegistry)"\]</dd></dl>

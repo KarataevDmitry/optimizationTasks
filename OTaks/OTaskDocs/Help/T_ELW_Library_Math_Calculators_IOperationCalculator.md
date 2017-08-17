@@ -12,11 +12,6 @@ Common interface shoud be implemented in variuos operations calculators.
 public interface IOperationCalculator
 ```
 
-**F#**<br />
-``` F#
-type IOperationCalculator =  interface end
-```
-
 Тип IOperationCalculator предоставляет следующие члены.
 
 

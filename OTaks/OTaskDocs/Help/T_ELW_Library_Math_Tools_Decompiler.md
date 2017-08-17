@@ -15,12 +15,6 @@ Implements decompiler logic for specified compiled expressions.
 public sealed class Decompiler
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type Decompiler =  class end
-```
-
 Тип Decompiler предоставляет следующие члены.
 
 

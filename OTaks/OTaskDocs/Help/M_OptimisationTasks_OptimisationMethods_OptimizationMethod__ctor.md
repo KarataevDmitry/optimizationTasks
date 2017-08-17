@@ -12,11 +12,6 @@
 protected OptimizationMethod()
 ```
 
-**F#**<br />
-``` F#
-new : unit -> OptimizationMethod
-```
-
 
 ## См. также
 

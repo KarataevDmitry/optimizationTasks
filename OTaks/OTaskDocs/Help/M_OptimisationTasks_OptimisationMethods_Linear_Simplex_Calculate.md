@@ -14,13 +14,6 @@ public double[,] Calculate(
 )
 ```
 
-**F#**<br />
-``` F#
-member Calculate : 
-        result : float[] -> float[,] 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>result</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a>[]<br />\[<param name="result"/> отсутствует в документации для "M:OptimisationTasks.OptimisationMethods.Linear.Simplex.Calculate(System.Double[])"\]</dd></dl>

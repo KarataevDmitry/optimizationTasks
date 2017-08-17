@@ -14,14 +14,6 @@ public double[] CalcSolution(
 )
 ```
 
-**F#**<br />
-``` F#
-abstract CalcSolution : 
-        table : float[,] -> float[] 
-override CalcSolution : 
-        table : float[,] -> float[] 
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>table</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a>[,]<br />\[<param name="table"/> отсутствует в документации для "M:OptimisationTasks.Optimisation.Linear.SimplexOptimizer.CalcSolution(System.Double[0:,0:])"\]</dd></dl>

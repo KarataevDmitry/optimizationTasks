@@ -14,12 +14,6 @@ public Interval(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        interv : string -> Interval
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>interv</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="interv"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.Interval.#ctor(System.String)"\]</dd></dl>

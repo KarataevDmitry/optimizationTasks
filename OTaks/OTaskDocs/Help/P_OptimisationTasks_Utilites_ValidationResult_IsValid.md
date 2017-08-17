@@ -12,12 +12,6 @@
 public bool IsValid { get; }
 ```
 
-**F#**<br />
-``` F#
-member IsValid : bool with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/a28wyd50" target="_blank">Boolean</a>

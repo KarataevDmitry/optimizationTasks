@@ -12,11 +12,6 @@ Type of prepared expression item content.
 public enum PreparedExpressionItemKind
 ```
 
-**F#**<br />
-``` F#
-type PreparedExpressionItemKind
-```
-
 
 ## Члены
 &nbsp;<table><tr><th></th><th>Имя члена</th><th>Значение</th><th>Описание</th></tr><tr><td /><td target="F:ELW.Library.Math.Expressions.PreparedExpressionItemKind.Constant">**Constant**</td><td>0</td><td>Constant value.</td></tr><tr><td /><td target="F:ELW.Library.Math.Expressions.PreparedExpressionItemKind.Variable">**Variable**</td><td>1</td><td>Variable name.</td></tr><tr><td /><td target="F:ELW.Library.Math.Expressions.PreparedExpressionItemKind.Delimiter">**Delimiter**</td><td>2</td><td>Braces, commas.</td></tr><tr><td /><td target="F:ELW.Library.Math.Expressions.PreparedExpressionItemKind.Signature">**Signature**</td><td>3</td><td>Registered signature.</td></tr></table>

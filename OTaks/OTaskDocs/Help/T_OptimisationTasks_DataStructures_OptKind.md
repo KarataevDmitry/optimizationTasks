@@ -12,11 +12,6 @@
 public enum OptKind
 ```
 
-**F#**<br />
-``` F#
-type OptKind
-```
-
 
 ## Члены
 &nbsp;<table><tr><th></th><th>Имя члена</th><th>Значение</th><th>Описание</th></tr><tr><td /><td target="F:OptimisationTasks.DataStructures.OptKind.Maximum">**Maximum**</td><td>1</td><td /></tr><tr><td /><td target="F:OptimisationTasks.DataStructures.OptKind.Minimum">**Minimum**</td><td>2</td><td /></tr><tr><td /><td target="F:OptimisationTasks.DataStructures.OptKind.NotSet">**NotSet**</td><td>-1</td><td /></tr></table>

@@ -12,12 +12,6 @@
 public static Compiler Compiler { get; }
 ```
 
-**F#**<br />
-``` F#
-static member Compiler : Compiler with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="T_ELW_Library_Math_Tools_Compiler">Compiler</a>

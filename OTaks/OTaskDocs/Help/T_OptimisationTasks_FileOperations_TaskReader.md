@@ -15,13 +15,6 @@
 public static class TaskReader
 ```
 
-**F#**<br />
-``` F#
-[<AbstractClassAttribute>]
-[<SealedAttribute>]
-type TaskReader =  class end
-```
-
 Тип TaskReader предоставляет следующие члены.
 
 

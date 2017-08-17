@@ -15,13 +15,6 @@ public Interval(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        left : float * 
-        right : float -> Interval
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>left</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a><br />\[<param name="left"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.Interval.#ctor(System.Double,System.Double)"\]</dd><dt>right</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a><br />\[<param name="right"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.Interval.#ctor(System.Double,System.Double)"\]</dd></dl>

@@ -15,11 +15,6 @@
 public class ExpressionValidator
 ```
 
-**F#**<br />
-``` F#
-type ExpressionValidator =  class end
-```
-
 Тип ExpressionValidator предоставляет следующие члены.
 
 

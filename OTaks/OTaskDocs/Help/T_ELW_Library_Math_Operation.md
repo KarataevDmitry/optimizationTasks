@@ -15,12 +15,6 @@ Represents an operation with calculator associated.
 public sealed class Operation
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type Operation =  class end
-```
-
 Тип Operation предоставляет следующие члены.
 
 

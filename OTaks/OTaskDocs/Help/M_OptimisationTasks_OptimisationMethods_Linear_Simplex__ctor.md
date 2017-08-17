@@ -14,12 +14,6 @@ public Simplex(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        source : float[,] -> Simplex
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>source</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a>[,]<br />\[<param name="source"/> отсутствует в документации для "M:OptimisationTasks.OptimisationMethods.Linear.Simplex.#ctor(System.Double[0:,0:])"\]</dd></dl>

@@ -14,12 +14,6 @@ public CompiledExpression(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        compiledExpressionItems : List<CompiledExpressionItem> -> CompiledExpression
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>compiledExpressionItems</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/6sh2ey19" target="_blank">System.Collections.Generic.List</a>(<a href="T_ELW_Library_Math_Expressions_CompiledExpressionItem">CompiledExpressionItem</a>)<br />\[<param name="compiledExpressionItems"/> отсутствует в документации для "M:ELW.Library.Math.Expressions.CompiledExpression.#ctor(System.Collections.Generic.List{ELW.Library.Math.Expressions.CompiledExpressionItem})"\]</dd></dl>

@@ -14,13 +14,6 @@ public Operation GetOperationByName(
 )
 ```
 
-**F#**<br />
-``` F#
-member GetOperationByName : 
-        name : string -> Operation 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>name</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="name"/> отсутствует в документации для "M:ELW.Library.Math.OperationsRegistry.GetOperationByName(System.String)"\]</dd></dl>

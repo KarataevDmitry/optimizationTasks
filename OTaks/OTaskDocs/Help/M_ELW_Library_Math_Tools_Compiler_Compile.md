@@ -14,13 +14,6 @@ public CompiledExpression Compile(
 )
 ```
 
-**F#**<br />
-``` F#
-member Compile : 
-        preparedExpression : PreparedExpression -> CompiledExpression 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>preparedExpression</dt><dd>Тип:&nbsp;<a href="T_ELW_Library_Math_Expressions_PreparedExpression">ELW.Library.Math.Expressions.PreparedExpression</a><br />\[<param name="preparedExpression"/> отсутствует в документации для "M:ELW.Library.Math.Tools.Compiler.Compile(ELW.Library.Math.Expressions.PreparedExpression)"\]</dd></dl>

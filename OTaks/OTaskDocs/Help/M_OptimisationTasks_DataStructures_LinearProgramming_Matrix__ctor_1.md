@@ -15,13 +15,6 @@ public Matrix(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        rows : int * 
-        cols : int -> Matrix
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>rows</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/td2s409d" target="_blank">System.Int32</a><br />\[<param name="rows"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.LinearProgramming.Matrix.#ctor(System.Int32,System.Int32)"\]</dd><dt>cols</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/td2s409d" target="_blank">System.Int32</a><br />\[<param name="cols"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.LinearProgramming.Matrix.#ctor(System.Int32,System.Int32)"\]</dd></dl>

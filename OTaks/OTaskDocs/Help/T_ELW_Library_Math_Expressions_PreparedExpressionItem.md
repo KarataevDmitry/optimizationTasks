@@ -15,12 +15,6 @@ Represents a part of parsed expression or decompiled expression.
 public sealed class PreparedExpressionItem
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type PreparedExpressionItem =  class end
-```
-
 Тип PreparedExpressionItem предоставляет следующие члены.
 
 

@@ -12,11 +12,6 @@
 public LinearOptimizationTaskDefinition()
 ```
 
-**F#**<br />
-``` F#
-new : unit -> LinearOptimizationTaskDefinition
-```
-
 
 ## См. также
 

@@ -14,13 +14,6 @@ public ValidationResult Validate(
 )
 ```
 
-**F#**<br />
-``` F#
-member Validate : 
-        expr : string -> ValidationResult 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>expr</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="expr"/> отсутствует в документации для "M:OptimisationTasks.Utilites.ExpressionValidator.Validate(System.String)"\]</dd></dl>

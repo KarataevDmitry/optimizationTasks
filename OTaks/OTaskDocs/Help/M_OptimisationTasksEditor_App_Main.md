@@ -9,13 +9,8 @@
 
 **C#**<br />
 ``` C#
+[STAThreadAttribute]
 public static void Main()
-```
-
-**F#**<br />
-``` F#
-static member Main : unit -> unit 
-
 ```
 
 

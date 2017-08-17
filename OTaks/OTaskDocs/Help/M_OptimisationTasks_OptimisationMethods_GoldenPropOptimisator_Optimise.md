@@ -15,24 +15,6 @@ public override Nullable<double> Optimise(
 )
 ```
 
-**F#**<br />
-``` F#
-abstract Optimise : 
-        t : Task1D * 
-        ?eps : float 
-(* Defaults:
-        let _eps = defaultArg eps 0,001
-*)
--> Nullable<float> 
-override Optimise : 
-        t : Task1D * 
-        ?eps : float 
-(* Defaults:
-        let _eps = defaultArg eps 0,001
-*)
--> Nullable<float> 
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>t</dt><dd>Тип:&nbsp;<a href="T_OptimisationTasks_DataStructures_Task1D">OptimisationTasks.DataStructures.Task1D</a><br />\[<param name="t"/> отсутствует в документации для "M:OptimisationTasks.OptimisationMethods.GoldenPropOptimisator.Optimise(OptimisationTasks.DataStructures.Task1D,System.Double)"\]</dd><dt>eps (Optional)</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a><br />\[<param name="eps"/> отсутствует в документации для "M:OptimisationTasks.OptimisationMethods.GoldenPropOptimisator.Optimise(OptimisationTasks.DataStructures.Task1D,System.Double)"\]</dd></dl>

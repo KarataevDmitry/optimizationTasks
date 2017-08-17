@@ -14,13 +14,6 @@ public double GetFuncResult(
 )
 ```
 
-**F#**<br />
-``` F#
-member GetFuncResult : 
-        varValue : float -> float 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>varValue</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a><br />\[<param name="varValue"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.Task1D.GetFuncResult(System.Double)"\]</dd></dl>

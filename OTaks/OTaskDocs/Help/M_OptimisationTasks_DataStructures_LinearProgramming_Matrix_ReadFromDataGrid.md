@@ -14,13 +14,6 @@ public void ReadFromDataGrid(
 )
 ```
 
-**F#**<br />
-``` F#
-member ReadFromDataGrid : 
-        dg : DataGridView -> unit 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>dg</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/wc5cbb9z" target="_blank">System.Windows.Forms.DataGridView</a><br />\[<param name="dg"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.LinearProgramming.Matrix.ReadFromDataGrid(System.Windows.Forms.DataGridView)"\]</dd></dl>

@@ -15,12 +15,6 @@ Contains a concrete value for specified variable.
 public sealed class VariableValue
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type VariableValue =  class end
-```
-
 Тип VariableValue предоставляет следующие члены.
 
 

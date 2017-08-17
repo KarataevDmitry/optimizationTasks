@@ -12,12 +12,6 @@
 public string VALIDATION_STATUS_OK { get; }
 ```
 
-**F#**<br />
-``` F#
-member VALIDATION_STATUS_OK : string with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">String</a>

@@ -12,11 +12,6 @@
 public OperationsRegistry()
 ```
 
-**F#**<br />
-``` F#
-new : unit -> OperationsRegistry
-```
-
 
 ## См. также
 

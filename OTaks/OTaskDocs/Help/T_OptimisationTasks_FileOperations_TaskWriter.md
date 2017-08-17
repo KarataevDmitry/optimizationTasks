@@ -15,13 +15,6 @@
 public static class TaskWriter
 ```
 
-**F#**<br />
-``` F#
-[<AbstractClassAttribute>]
-[<SealedAttribute>]
-type TaskWriter =  class end
-```
-
 Тип TaskWriter предоставляет следующие члены.
 
 

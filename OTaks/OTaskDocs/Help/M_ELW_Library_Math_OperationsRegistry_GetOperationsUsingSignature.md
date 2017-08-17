@@ -14,13 +14,6 @@ public ICollection<Operation> GetOperationsUsingSignature(
 )
 ```
 
-**F#**<br />
-``` F#
-member GetOperationsUsingSignature : 
-        signature : string -> ICollection<Operation> 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>signature</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="signature"/> отсутствует в документации для "M:ELW.Library.Math.OperationsRegistry.GetOperationsUsingSignature(System.String)"\]</dd></dl>

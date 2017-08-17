@@ -15,12 +15,6 @@
 public abstract class OptimizationMethod
 ```
 
-**F#**<br />
-``` F#
-[<AbstractClassAttribute>]
-type OptimizationMethod =  class end
-```
-
 Тип OptimizationMethod предоставляет следующие члены.
 
 

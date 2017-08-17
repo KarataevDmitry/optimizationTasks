@@ -15,12 +15,6 @@ Supported operations and configuration manager.
 public sealed class OperationsRegistry
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type OperationsRegistry =  class end
-```
-
 Тип OperationsRegistry предоставляет следующие члены.
 
 

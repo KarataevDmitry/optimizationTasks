@@ -14,12 +14,6 @@ public PreparedExpression(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        preparedExpressionItems : List<PreparedExpressionItem> -> PreparedExpression
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>preparedExpressionItems</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/6sh2ey19" target="_blank">System.Collections.Generic.List</a>(<a href="T_ELW_Library_Math_Expressions_PreparedExpressionItem">PreparedExpressionItem</a>)<br />\[<param name="preparedExpressionItems"/> отсутствует в документации для "M:ELW.Library.Math.Expressions.PreparedExpression.#ctor(System.Collections.Generic.List{ELW.Library.Math.Expressions.PreparedExpressionItem})"\]</dd></dl>

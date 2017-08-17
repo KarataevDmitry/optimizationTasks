@@ -15,12 +15,6 @@ Represents a compiled expression, which can be used for calculating.
 public sealed class CompiledExpression
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type CompiledExpression =  class end
-```
-
 Тип CompiledExpression предоставляет следующие члены.
 
 

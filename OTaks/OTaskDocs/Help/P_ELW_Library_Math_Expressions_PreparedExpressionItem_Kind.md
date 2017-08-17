@@ -12,12 +12,6 @@
 public PreparedExpressionItemKind Kind { get; }
 ```
 
-**F#**<br />
-``` F#
-member Kind : PreparedExpressionItemKind with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="T_ELW_Library_Math_Expressions_PreparedExpressionItemKind">PreparedExpressionItemKind</a>

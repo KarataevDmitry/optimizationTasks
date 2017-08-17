@@ -15,11 +15,6 @@
 public class LinearTask
 ```
 
-**F#**<br />
-``` F#
-type LinearTask =  class end
-```
-
 Тип LinearTask предоставляет следующие члены.
 
 

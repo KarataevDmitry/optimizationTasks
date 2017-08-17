@@ -15,13 +15,6 @@ public VariableValue(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        value : float * 
-        variableName : string -> VariableValue
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>value</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a><br />\[<param name="value"/> отсутствует в документации для "M:ELW.Library.Math.Tools.VariableValue.#ctor(System.Double,System.String)"\]</dd><dt>variableName</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="variableName"/> отсутствует в документации для "M:ELW.Library.Math.Tools.VariableValue.#ctor(System.Double,System.String)"\]</dd></dl>

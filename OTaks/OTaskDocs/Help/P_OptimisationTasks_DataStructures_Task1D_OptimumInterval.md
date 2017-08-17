@@ -12,12 +12,6 @@
 public Interval OptimumInterval { get; }
 ```
 
-**F#**<br />
-``` F#
-member OptimumInterval : Interval with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="T_OptimisationTasks_DataStructures_Interval">Interval</a>

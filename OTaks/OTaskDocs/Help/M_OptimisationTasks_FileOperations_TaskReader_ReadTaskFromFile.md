@@ -14,13 +14,6 @@ public static Task1D ReadTaskFromFile(
 )
 ```
 
-**F#**<br />
-``` F#
-static member ReadTaskFromFile : 
-        pathToDataFile : string -> Task1D 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>pathToDataFile</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="pathToDataFile"/> отсутствует в документации для "M:OptimisationTasks.FileOperations.TaskReader.ReadTaskFromFile(System.String)"\]</dd></dl>

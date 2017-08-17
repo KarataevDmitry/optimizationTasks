@@ -34,9 +34,9 @@
     <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
     <CleanIntermediates>True</CleanIntermediates>
     <HelpFileVersion>1.0.0.0</HelpFileVersion>
-    <MaximumGroupParts>2</MaximumGroupParts>
-    <NamespaceGrouping>False</NamespaceGrouping>
-    <SyntaxFilters>C#, F#</SyntaxFilters>
+    <MaximumGroupParts>8</MaximumGroupParts>
+    <NamespaceGrouping>True</NamespaceGrouping>
+    <SyntaxFilters>C#</SyntaxFilters>
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <RootNamespaceContainer>False</RootNamespaceContainer>
     <PresentationStyle>Markdown</PresentationStyle>
@@ -59,6 +59,7 @@
 <NamespaceSummaryItem name="OptimisationTasks.Utilites" isDocumented="True" xmlns="">Различные утилиты</NamespaceSummaryItem>
 <NamespaceSummaryItem name="OptimisationTasksEditor" isDocumented="True" xmlns="">GUI</NamespaceSummaryItem></NamespaceSummaries>
     <ProjectSummary>Решаемая задача проекта - математическое программирование %28одномерная и многомерная линейная оптимизация с помощью симплекс-метода</ProjectSummary>
+    <VisibleItems>Attributes, ExplicitInterfaceImplementations, InheritedMembers, InheritedFrameworkMembers, Protected, ProtectedInternalAsProtected</VisibleItems>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
@@ -85,6 +86,7 @@
     <Folder Include="media" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Content\NamespaceList.aml" />
     <None Include="Content\VersionHistory\v1.0.0.0.aml" />
     <None Include="Content\VersionHistory\VersionHistory.aml" />
     <None Include="Content\Welcome.aml" />

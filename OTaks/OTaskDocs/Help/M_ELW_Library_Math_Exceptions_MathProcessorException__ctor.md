@@ -12,11 +12,6 @@
 public MathProcessorException()
 ```
 
-**F#**<br />
-``` F#
-new : unit -> MathProcessorException
-```
-
 
 ## См. также
 

@@ -12,11 +12,6 @@
 public SimplexOptimizer()
 ```
 
-**F#**<br />
-``` F#
-new : unit -> SimplexOptimizer
-```
-
 
 ## См. также
 

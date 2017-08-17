@@ -15,13 +15,6 @@ Quick access to tool wanted.
 public static class ToolsHelper
 ```
 
-**F#**<br />
-``` F#
-[<AbstractClassAttribute>]
-[<SealedAttribute>]
-type ToolsHelper =  class end
-```
-
 Тип ToolsHelper предоставляет следующие члены.
 
 

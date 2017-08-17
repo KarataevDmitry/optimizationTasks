@@ -14,13 +14,6 @@ public bool IsSignatureDefined(
 )
 ```
 
-**F#**<br />
-``` F#
-member IsSignatureDefined : 
-        signature : string -> bool 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>signature</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="signature"/> отсутствует в документации для "M:ELW.Library.Math.OperationsRegistry.IsSignatureDefined(System.String)"\]</dd></dl>

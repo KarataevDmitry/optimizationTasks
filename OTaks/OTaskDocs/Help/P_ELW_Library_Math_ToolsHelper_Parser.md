@@ -12,12 +12,6 @@
 public static Parser Parser { get; }
 ```
 
-**F#**<br />
-``` F#
-static member Parser : Parser with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="T_ELW_Library_Math_Tools_Parser">Parser</a>

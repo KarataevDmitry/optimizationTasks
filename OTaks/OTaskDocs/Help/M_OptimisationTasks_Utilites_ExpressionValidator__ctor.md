@@ -12,11 +12,6 @@
 public ExpressionValidator()
 ```
 
-**F#**<br />
-``` F#
-new : unit -> ExpressionValidator
-```
-
 
 ## См. также
 

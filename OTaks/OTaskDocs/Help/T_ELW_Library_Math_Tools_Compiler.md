@@ -15,12 +15,6 @@ Implements compiler logic.
 public sealed class Compiler
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type Compiler =  class end
-```
-
 Тип Compiler предоставляет следующие члены.
 
 

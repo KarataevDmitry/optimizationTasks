@@ -12,12 +12,6 @@
 public struct Interval
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type Interval =  struct end
-```
-
 Тип Interval предоставляет следующие члены.
 
 

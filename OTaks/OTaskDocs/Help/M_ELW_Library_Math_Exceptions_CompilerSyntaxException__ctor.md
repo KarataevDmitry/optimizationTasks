@@ -12,11 +12,6 @@
 public CompilerSyntaxException()
 ```
 
-**F#**<br />
-``` F#
-new : unit -> CompilerSyntaxException
-```
-
 
 ## См. также
 

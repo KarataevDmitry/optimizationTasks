@@ -14,13 +14,6 @@ public CompiledExpression Optimize(
 )
 ```
 
-**F#**<br />
-``` F#
-member Optimize : 
-        compiledExpression : CompiledExpression -> CompiledExpression 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>compiledExpression</dt><dd>Тип:&nbsp;<a href="T_ELW_Library_Math_Expressions_CompiledExpression">ELW.Library.Math.Expressions.CompiledExpression</a><br />\[<param name="compiledExpression"/> отсутствует в документации для "M:ELW.Library.Math.Tools.Optimizer.Optimize(ELW.Library.Math.Expressions.CompiledExpression)"\]</dd></dl>

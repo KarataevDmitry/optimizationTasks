@@ -12,12 +12,6 @@
 public int[] SignaturesLens { get; }
 ```
 
-**F#**<br />
-``` F#
-member SignaturesLens : int[] with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/td2s409d" target="_blank">Int32</a>[]

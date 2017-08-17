@@ -15,14 +15,6 @@
 public class App : Application
 ```
 
-**F#**<br />
-``` F#
-type App =  
-    class
-        inherit Application
-    end
-```
-
 Тип App предоставляет следующие члены.
 
 
@@ -41,6 +33,10 @@ type App =
 
 ## События
 &nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/ms587994" target="_blank">Activated</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/ms587995" target="_blank">Deactivated</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/ms587996" target="_blank">DispatcherUnhandledException</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/ms587997" target="_blank">Exit</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/ms587998" target="_blank">FragmentNavigation</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/ms588001" target="_blank">LoadCompleted</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/ms588002" target="_blank">Navigated</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/ms588003" target="_blank">Navigating</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/aa345443" target="_blank">NavigationFailed</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/ms588004" target="_blank">NavigationProgress</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/ms588005" target="_blank">NavigationStopped</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/ms588006" target="_blank">SessionEnding</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr><tr><td>![Открытое событие]( "Открытое событие")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/ms588007" target="_blank">Startup</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr></table>&nbsp;
+<a href="#app---класс">В начало страницы</a>
+
+## Явные&nbsp;реализации&nbsp;интерфейсов
+&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Явные реализации интерфейса]( "Явные реализации интерфейса")![Закрытый метод]( "Закрытый метод")</td><td><a href="http://msdn2.microsoft.com/ru-ru/library/dd549641" target="_blank">IQueryAmbient.IsAmbientPropertyAvailable</a></td><td> (Унаследован от <a href="http://msdn2.microsoft.com/ru-ru/library/ms588794" target="_blank">Application</a>.)</td></tr></table>&nbsp;
 <a href="#app---класс">В начало страницы</a>
 
 ## См. также

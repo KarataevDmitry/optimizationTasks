@@ -17,19 +17,6 @@ public Task1D(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        func : string * 
-        dir : OptKind * 
-        varName : string * 
-        ?interv : Interval 
-(* Defaults:
-        let _interv = defaultArg interv null
-*)
--> Task1D
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>func</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="func"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.Task1D.#ctor(System.String,OptimisationTasks.DataStructures.OptKind,System.String,OptimisationTasks.DataStructures.Interval)"\]</dd><dt>dir</dt><dd>Тип:&nbsp;<a href="T_OptimisationTasks_DataStructures_OptKind">OptimisationTasks.DataStructures.OptKind</a><br />\[<param name="dir"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.Task1D.#ctor(System.String,OptimisationTasks.DataStructures.OptKind,System.String,OptimisationTasks.DataStructures.Interval)"\]</dd><dt>varName</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="varName"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.Task1D.#ctor(System.String,OptimisationTasks.DataStructures.OptKind,System.String,OptimisationTasks.DataStructures.Interval)"\]</dd><dt>interv (Optional)</dt><dd>Тип:&nbsp;<a href="T_OptimisationTasks_DataStructures_Interval">OptimisationTasks.DataStructures.Interval</a><br />\[<param name="interv"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.Task1D.#ctor(System.String,OptimisationTasks.DataStructures.OptKind,System.String,OptimisationTasks.DataStructures.Interval)"\]</dd></dl>

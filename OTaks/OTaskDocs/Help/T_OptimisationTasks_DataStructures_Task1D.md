@@ -15,12 +15,6 @@
 public sealed class Task1D
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type Task1D =  class end
-```
-
 Тип Task1D предоставляет следующие члены.
 
 

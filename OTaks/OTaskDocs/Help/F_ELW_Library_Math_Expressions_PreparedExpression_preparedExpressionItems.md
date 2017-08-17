@@ -12,11 +12,6 @@
 public readonly List<PreparedExpressionItem> preparedExpressionItems
 ```
 
-**F#**<br />
-``` F#
-val preparedExpressionItems: List<PreparedExpressionItem>
-```
-
 
 #### Значение поля
 Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/6sh2ey19" target="_blank">List</a>(<a href="T_ELW_Library_Math_Expressions_PreparedExpressionItem">PreparedExpressionItem</a>)

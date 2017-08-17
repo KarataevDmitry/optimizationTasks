@@ -12,11 +12,6 @@
 public GoldenPropOptimisator()
 ```
 
-**F#**<br />
-``` F#
-new : unit -> GoldenPropOptimisator
-```
-
 
 ## См. также
 

@@ -14,13 +14,6 @@ public PreparedExpression Parse(
 )
 ```
 
-**F#**<br />
-``` F#
-member Parse : 
-        sourceString : string -> PreparedExpression 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>sourceString</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="sourceString"/> отсутствует в документации для "M:ELW.Library.Math.Tools.Parser.Parse(System.String)"\]</dd></dl>

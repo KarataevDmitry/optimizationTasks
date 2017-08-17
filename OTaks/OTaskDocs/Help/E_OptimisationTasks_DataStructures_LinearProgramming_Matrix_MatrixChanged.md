@@ -12,13 +12,6 @@
 public event PropertyChangedEventHandler MatrixChanged
 ```
 
-**F#**<br />
-``` F#
-member MatrixChanged : IEvent<PropertyChangedEventHandler,
-    PropertyChangedEventArgs>
-
-```
-
 
 #### Значение
 Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/hyza7z75" target="_blank">System.ComponentModel.PropertyChangedEventHandler</a>

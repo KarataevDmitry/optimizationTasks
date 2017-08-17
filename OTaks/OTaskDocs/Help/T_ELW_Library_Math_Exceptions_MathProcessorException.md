@@ -15,14 +15,6 @@ Super class for all library specific exceptions.
 public class MathProcessorException : Exception
 ```
 
-**F#**<br />
-``` F#
-type MathProcessorException =  
-    class
-        inherit Exception
-    end
-```
-
 Тип MathProcessorException предоставляет следующие члены.
 
 

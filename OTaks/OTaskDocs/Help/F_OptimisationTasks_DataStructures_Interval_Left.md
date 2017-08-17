@@ -12,11 +12,6 @@
 public double Left
 ```
 
-**F#**<br />
-``` F#
-val mutable Left: float
-```
-
 
 #### Значение поля
 Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">Double</a>

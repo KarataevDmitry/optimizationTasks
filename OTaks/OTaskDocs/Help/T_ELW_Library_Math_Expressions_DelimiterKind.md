@@ -12,11 +12,6 @@ Delimiters supported.
 public enum DelimiterKind
 ```
 
-**F#**<br />
-``` F#
-type DelimiterKind
-```
-
 
 ## Члены
 &nbsp;<table><tr><th></th><th>Имя члена</th><th>Значение</th><th>Описание</th></tr><tr><td /><td target="F:ELW.Library.Math.Expressions.DelimiterKind.OpeningBrace">**OpeningBrace**</td><td>1</td><td /></tr><tr><td /><td target="F:ELW.Library.Math.Expressions.DelimiterKind.ClosingBrace">**ClosingBrace**</td><td>2</td><td /></tr><tr><td /><td target="F:ELW.Library.Math.Expressions.DelimiterKind.Comma">**Comma**</td><td>3</td><td /></tr></table>

@@ -12,12 +12,6 @@
 public struct ValidationResult
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type ValidationResult =  struct end
-```
-
 Тип ValidationResult предоставляет следующие члены.
 
 

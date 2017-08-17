@@ -15,13 +15,6 @@ public CompilerSyntaxException(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        message : string * 
-        innerException : Exception -> CompilerSyntaxException
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>message</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="message"/> отсутствует в документации для "M:ELW.Library.Math.Exceptions.CompilerSyntaxException.#ctor(System.String,System.Exception)"\]</dd><dt>innerException</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/c18k6c59" target="_blank">System.Exception</a><br />\[<param name="innerException"/> отсутствует в документации для "M:ELW.Library.Math.Exceptions.CompilerSyntaxException.#ctor(System.String,System.Exception)"\]</dd></dl>

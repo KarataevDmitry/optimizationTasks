@@ -12,12 +12,6 @@
 public List<CompiledExpressionItem> CompiledExpressionItems { get; }
 ```
 
-**F#**<br />
-``` F#
-member CompiledExpressionItems : List<CompiledExpressionItem> with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/6sh2ey19" target="_blank">List</a>(<a href="T_ELW_Library_Math_Expressions_CompiledExpressionItem">CompiledExpressionItem</a>)

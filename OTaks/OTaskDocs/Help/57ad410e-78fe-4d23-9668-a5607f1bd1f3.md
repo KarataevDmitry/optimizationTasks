@@ -8,11 +8,8 @@
 &nbsp;<ul><li>
 [Парсер математических выражений](https://habrahabr.ru/post/50158/) За парсер спасибо хабрапользователю [@elw00d](https://habrahabr.ru/users/elw00d/)</li></ul>
 
-## Пространства имен
-
-
 ## См. также
 
 
 #### Другие ресурсы
-<a href="f85f2bd1-290d-43ef-becf-827ffce9fb60">Version History</a><br />
+[]<br />

@@ -12,11 +12,6 @@
 public interface ILinearOptimizer
 ```
 
-**F#**<br />
-``` F#
-type ILinearOptimizer =  interface end
-```
-
 Тип ILinearOptimizer предоставляет следующие члены.
 
 

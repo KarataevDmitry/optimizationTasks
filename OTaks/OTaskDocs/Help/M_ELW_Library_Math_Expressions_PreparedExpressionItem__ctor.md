@@ -15,13 +15,6 @@ public PreparedExpressionItem(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        kind : PreparedExpressionItemKind * 
-        value : Object -> PreparedExpressionItem
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>kind</dt><dd>Тип:&nbsp;<a href="T_ELW_Library_Math_Expressions_PreparedExpressionItemKind">ELW.Library.Math.Expressions.PreparedExpressionItemKind</a><br />\[<param name="kind"/> отсутствует в документации для "M:ELW.Library.Math.Expressions.PreparedExpressionItem.#ctor(ELW.Library.Math.Expressions.PreparedExpressionItemKind,System.Object)"\]</dd><dt>value</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/e5kfa45b" target="_blank">System.Object</a><br />\[<param name="value"/> отсутствует в документации для "M:ELW.Library.Math.Expressions.PreparedExpressionItem.#ctor(ELW.Library.Math.Expressions.PreparedExpressionItemKind,System.Object)"\]</dd></dl>

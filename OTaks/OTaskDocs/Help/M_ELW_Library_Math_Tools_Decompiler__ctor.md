@@ -14,12 +14,6 @@ public Decompiler(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        operationsRegistry : OperationsRegistry -> Decompiler
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>operationsRegistry</dt><dd>Тип:&nbsp;<a href="T_ELW_Library_Math_OperationsRegistry">ELW.Library.Math.OperationsRegistry</a><br />\[<param name="operationsRegistry"/> отсутствует в документации для "M:ELW.Library.Math.Tools.Decompiler.#ctor(ELW.Library.Math.OperationsRegistry)"\]</dd></dl>

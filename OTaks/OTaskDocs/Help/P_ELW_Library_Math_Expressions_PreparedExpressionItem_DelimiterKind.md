@@ -12,12 +12,6 @@
 public DelimiterKind DelimiterKind { get; }
 ```
 
-**F#**<br />
-``` F#
-member DelimiterKind : DelimiterKind with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="T_ELW_Library_Math_Expressions_DelimiterKind">DelimiterKind</a>

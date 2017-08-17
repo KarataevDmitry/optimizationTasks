@@ -12,12 +12,6 @@
 public override string ToString()
 ```
 
-**F#**<br />
-``` F#
-abstract ToString : unit -> string 
-override ToString : unit -> string 
-```
-
 
 #### Возвращаемое значение
 Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">String</a><br />\[<returns> отсутствует в документации для "M:ELW.Library.Math.Operation.ToString"\]

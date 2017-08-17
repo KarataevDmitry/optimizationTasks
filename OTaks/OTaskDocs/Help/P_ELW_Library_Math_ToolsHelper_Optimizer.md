@@ -12,12 +12,6 @@
 public static Optimizer Optimizer { get; }
 ```
 
-**F#**<br />
-``` F#
-static member Optimizer : Optimizer with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="T_ELW_Library_Math_Tools_Optimizer">Optimizer</a>

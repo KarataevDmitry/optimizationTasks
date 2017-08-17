@@ -12,11 +12,6 @@ Association direction of priority.
 public enum PriorityAssociation
 ```
 
-**F#**<br />
-``` F#
-type PriorityAssociation
-```
-
 
 ## Члены
 &nbsp;<table><tr><th></th><th>Имя члена</th><th>Значение</th><th>Описание</th></tr><tr><td /><td target="F:ELW.Library.Math.PriorityAssociation.LeftAssociated">**LeftAssociated**</td><td>1</td><td>For example, normal binary subtraction or multiplication.</td></tr><tr><td /><td target="F:ELW.Library.Math.PriorityAssociation.RightAssociated">**RightAssociated**</td><td>2</td><td>For example, ternary ?: operator.</td></tr></table>

@@ -14,13 +14,6 @@ public void RaiseMatrixChanged(
 )
 ```
 
-**F#**<br />
-``` F#
-member RaiseMatrixChanged : 
-        propName : string -> unit 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>propName</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="propName"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.LinearProgramming.Matrix.RaiseMatrixChanged(System.String)"\]</dd></dl>

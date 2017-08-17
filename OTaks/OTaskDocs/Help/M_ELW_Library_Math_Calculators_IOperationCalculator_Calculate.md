@@ -14,13 +14,6 @@ double Calculate(
 )
 ```
 
-**F#**<br />
-``` F#
-abstract Calculate : 
-        parameters : float[] -> float 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>parameters</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a>[]<br />\[<param name="parameters"/> отсутствует в документации для "M:ELW.Library.Math.Calculators.IOperationCalculator.Calculate(System.Double[])"\]</dd></dl>

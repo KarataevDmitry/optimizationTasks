@@ -15,14 +15,6 @@ Exception caused by error during compilation.
 public class CompilerSyntaxException : MathProcessorException
 ```
 
-**F#**<br />
-``` F#
-type CompilerSyntaxException =  
-    class
-        inherit MathProcessorException
-    end
-```
-
 Тип CompilerSyntaxException предоставляет следующие члены.
 
 

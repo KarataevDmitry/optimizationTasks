@@ -12,12 +12,6 @@
 public static Calculator Calculator { get; }
 ```
 
-**F#**<br />
-``` F#
-static member Calculator : Calculator with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="T_ELW_Library_Math_Tools_Calculator">Calculator</a>

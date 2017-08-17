@@ -14,12 +14,6 @@ public Matrix(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        arr : float[,] -> Matrix
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>arr</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a>[,]<br />\[<param name="arr"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.LinearProgramming.Matrix.#ctor(System.Double[0:,0:])"\]</dd></dl>

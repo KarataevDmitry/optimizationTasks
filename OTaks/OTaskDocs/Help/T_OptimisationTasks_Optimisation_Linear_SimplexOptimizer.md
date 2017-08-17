@@ -15,14 +15,6 @@
 public class SimplexOptimizer : ILinearOptimizer
 ```
 
-**F#**<br />
-``` F#
-type SimplexOptimizer =  
-    class
-        interface ILinearOptimizer
-    end
-```
-
 Тип SimplexOptimizer предоставляет следующие члены.
 
 

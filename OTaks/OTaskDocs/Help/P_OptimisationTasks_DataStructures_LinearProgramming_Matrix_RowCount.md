@@ -12,12 +12,6 @@
 public int RowCount { get; }
 ```
 
-**F#**<br />
-``` F#
-member RowCount : int with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/td2s409d" target="_blank">Int32</a>

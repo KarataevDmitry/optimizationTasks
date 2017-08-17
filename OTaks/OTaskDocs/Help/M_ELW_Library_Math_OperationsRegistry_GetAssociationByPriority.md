@@ -14,13 +14,6 @@ public PriorityAssociation GetAssociationByPriority(
 )
 ```
 
-**F#**<br />
-``` F#
-member GetAssociationByPriority : 
-        priority : int -> PriorityAssociation 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>priority</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/td2s409d" target="_blank">System.Int32</a><br />\[<param name="priority"/> отсутствует в документации для "M:ELW.Library.Math.OperationsRegistry.GetAssociationByPriority(System.Int32)"\]</dd></dl>

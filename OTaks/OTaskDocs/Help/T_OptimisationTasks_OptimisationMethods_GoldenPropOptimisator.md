@@ -15,14 +15,6 @@
 public class GoldenPropOptimisator : OptimizationMethod
 ```
 
-**F#**<br />
-``` F#
-type GoldenPropOptimisator =  
-    class
-        inherit OptimizationMethod
-    end
-```
-
 Тип GoldenPropOptimisator предоставляет следующие члены.
 
 

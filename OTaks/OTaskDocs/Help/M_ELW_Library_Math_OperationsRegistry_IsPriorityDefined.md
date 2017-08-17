@@ -14,13 +14,6 @@ public bool IsPriorityDefined(
 )
 ```
 
-**F#**<br />
-``` F#
-member IsPriorityDefined : 
-        priority : int -> bool 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>priority</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/td2s409d" target="_blank">System.Int32</a><br />\[<param name="priority"/> отсутствует в документации для "M:ELW.Library.Math.OperationsRegistry.IsPriorityDefined(System.Int32)"\]</dd></dl>

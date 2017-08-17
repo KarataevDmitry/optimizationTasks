@@ -12,11 +12,6 @@
 public HelloPage()
 ```
 
-**F#**<br />
-``` F#
-new : unit -> HelloPage
-```
-
 
 ## См. также
 

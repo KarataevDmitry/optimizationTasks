@@ -12,12 +12,6 @@
 public void InitializeComponent()
 ```
 
-**F#**<br />
-``` F#
-member InitializeComponent : unit -> unit 
-
-```
-
 
 ## См. также
 

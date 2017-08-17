@@ -15,13 +15,6 @@ protected CompilerSyntaxException(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        info : SerializationInfo * 
-        context : StreamingContext -> CompilerSyntaxException
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>info</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/a9b6042e" target="_blank">System.Runtime.Serialization.SerializationInfo</a><br />\[<param name="info"/> отсутствует в документации для "M:ELW.Library.Math.Exceptions.CompilerSyntaxException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)"\]</dd><dt>context</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/t16abws5" target="_blank">System.Runtime.Serialization.StreamingContext</a><br />\[<param name="context"/> отсутствует в документации для "M:ELW.Library.Math.Exceptions.CompilerSyntaxException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)"\]</dd></dl>

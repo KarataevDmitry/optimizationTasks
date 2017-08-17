@@ -15,18 +15,6 @@ public static void WriteTaskToFile(
 )
 ```
 
-**F#**<br />
-``` F#
-static member WriteTaskToFile : 
-        t : Task1D * 
-        ?writeTo : string 
-(* Defaults:
-        let _writeTo = defaultArg writeTo ""
-*)
--> unit 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>t</dt><dd>Тип:&nbsp;<a href="T_OptimisationTasks_DataStructures_Task1D">OptimisationTasks.DataStructures.Task1D</a><br />\[<param name="t"/> отсутствует в документации для "M:OptimisationTasks.FileOperations.TaskWriter.WriteTaskToFile(OptimisationTasks.DataStructures.Task1D,System.String)"\]</dd><dt>writeTo (Optional)</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="writeTo"/> отсутствует в документации для "M:OptimisationTasks.FileOperations.TaskWriter.WriteTaskToFile(OptimisationTasks.DataStructures.Task1D,System.String)"\]</dd></dl>

@@ -18,16 +18,6 @@ public Operation(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        name : string * 
-        kind : OperationKind * 
-        signature : string[] * 
-        operandsCount : int * 
-        calculator : IOperationCalculator -> Operation
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>name</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="name"/> отсутствует в документации для "M:ELW.Library.Math.Operation.#ctor(System.String,ELW.Library.Math.OperationKind,System.String[],System.Int32,ELW.Library.Math.Calculators.IOperationCalculator)"\]</dd><dt>kind</dt><dd>Тип:&nbsp;<a href="T_ELW_Library_Math_OperationKind">ELW.Library.Math.OperationKind</a><br />\[<param name="kind"/> отсутствует в документации для "M:ELW.Library.Math.Operation.#ctor(System.String,ELW.Library.Math.OperationKind,System.String[],System.Int32,ELW.Library.Math.Calculators.IOperationCalculator)"\]</dd><dt>signature</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a>[]<br />\[<param name="signature"/> отсутствует в документации для "M:ELW.Library.Math.Operation.#ctor(System.String,ELW.Library.Math.OperationKind,System.String[],System.Int32,ELW.Library.Math.Calculators.IOperationCalculator)"\]</dd><dt>operandsCount</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/td2s409d" target="_blank">System.Int32</a><br />\[<param name="operandsCount"/> отсутствует в документации для "M:ELW.Library.Math.Operation.#ctor(System.String,ELW.Library.Math.OperationKind,System.String[],System.Int32,ELW.Library.Math.Calculators.IOperationCalculator)"\]</dd><dt>calculator</dt><dd>Тип:&nbsp;<a href="T_ELW_Library_Math_Calculators_IOperationCalculator">ELW.Library.Math.Calculators.IOperationCalculator</a><br />\[<param name="calculator"/> отсутствует в документации для "M:ELW.Library.Math.Operation.#ctor(System.String,ELW.Library.Math.OperationKind,System.String[],System.Int32,ELW.Library.Math.Calculators.IOperationCalculator)"\]</dd></dl>

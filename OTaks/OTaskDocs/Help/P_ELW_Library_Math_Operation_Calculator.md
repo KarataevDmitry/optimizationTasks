@@ -12,12 +12,6 @@ Calculator for this operation.
 public IOperationCalculator Calculator { get; }
 ```
 
-**F#**<br />
-``` F#
-member Calculator : IOperationCalculator with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="T_ELW_Library_Math_Calculators_IOperationCalculator">IOperationCalculator</a>

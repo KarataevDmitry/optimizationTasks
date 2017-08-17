@@ -14,14 +14,6 @@ public static string ToStringTable(
 )
 ```
 
-**F#**<br />
-``` F#
-[<ExtensionAttribute>]
-static member ToStringTable : 
-        arrValues : string[,] -> string 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>arrValues</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a>[,]<br />\[<param name="arrValues"/> отсутствует в документации для "M:OptimisationTasks.Utilities.TableParser.ToStringTable(System.String[0:,0:])"\]</dd></dl>

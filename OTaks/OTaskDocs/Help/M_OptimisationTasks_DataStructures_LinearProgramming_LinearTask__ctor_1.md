@@ -14,12 +14,6 @@ public LinearTask(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        taskdata : float[,] -> LinearTask
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>taskdata</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a>[,]<br />\[<param name="taskdata"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.LinearProgramming.LinearTask.#ctor(System.Double[0:,0:])"\]</dd></dl>

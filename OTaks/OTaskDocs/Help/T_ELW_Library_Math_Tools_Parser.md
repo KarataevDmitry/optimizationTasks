@@ -15,12 +15,6 @@
 public sealed class Parser
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type Parser =  class end
-```
-
 Тип Parser предоставляет следующие члены.
 
 

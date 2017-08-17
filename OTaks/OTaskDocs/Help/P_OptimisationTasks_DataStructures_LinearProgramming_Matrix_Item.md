@@ -15,12 +15,6 @@ public double this[
 ] { get; set; }
 ```
 
-**F#**<br />
-``` F#
-member Item : float with get, set
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>row</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/td2s409d" target="_blank">System.Int32</a><br /></dd><dt>col</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/td2s409d" target="_blank">System.Int32</a><br /></dd></dl>

@@ -15,13 +15,6 @@ public ValidationResult(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        isVal : bool * 
-        place : string -> ValidationResult
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>isVal</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/a28wyd50" target="_blank">System.Boolean</a><br />\[<param name="isVal"/> отсутствует в документации для "M:OptimisationTasks.Utilites.ValidationResult.#ctor(System.Boolean,System.String)"\]</dd><dt>place</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="place"/> отсутствует в документации для "M:OptimisationTasks.Utilites.ValidationResult.#ctor(System.Boolean,System.String)"\]</dd></dl>

@@ -12,12 +12,6 @@
 public static Decompiler Decompiler { get; }
 ```
 
-**F#**<br />
-``` F#
-static member Decompiler : Decompiler with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="T_ELW_Library_Math_Tools_Decompiler">Decompiler</a>

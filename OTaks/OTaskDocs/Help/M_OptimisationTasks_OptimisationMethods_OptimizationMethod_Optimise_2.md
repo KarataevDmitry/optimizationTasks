@@ -15,14 +15,6 @@ public Nullable<double> Optimise(
 )
 ```
 
-**F#**<br />
-``` F#
-member Optimise : 
-        pathToTaskFile : string * 
-        eps : float -> Nullable<float> 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>pathToTaskFile</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="pathToTaskFile"/> отсутствует в документации для "M:OptimisationTasks.OptimisationMethods.OptimizationMethod.Optimise(System.String,System.Double)"\]</dd><dt>eps</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a><br />\[<param name="eps"/> отсутствует в документации для "M:OptimisationTasks.OptimisationMethods.OptimizationMethod.Optimise(System.String,System.Double)"\]</dd></dl>

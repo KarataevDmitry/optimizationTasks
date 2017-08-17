@@ -14,13 +14,6 @@ double[] CalcSolution(
 )
 ```
 
-**F#**<br />
-``` F#
-abstract CalcSolution : 
-        taskTable : float[,] -> float[] 
-
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>taskTable</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a>[,]<br />\[<param name="taskTable"/> отсутствует в документации для "M:OptimisationTasks.OptimisationMethods.Linear.ILinearOptimizer.CalcSolution(System.Double[0:,0:])"\]</dd></dl>

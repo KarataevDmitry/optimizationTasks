@@ -12,12 +12,6 @@
 public double[,] ToArray()
 ```
 
-**F#**<br />
-``` F#
-member ToArray : unit -> float[,] 
-
-```
-
 
 #### Возвращаемое значение
 Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">Double</a>[,]<br />\[<returns> отсутствует в документации для "M:OptimisationTasks.DataStructures.LinearProgramming.Matrix.ToArray"\]

@@ -14,12 +14,6 @@ public LinearTask(
 )
 ```
 
-**F#**<br />
-``` F#
-new : 
-        m : Matrix -> LinearTask
-```
-
 
 #### Параметры
 &nbsp;<dl><dt>m</dt><dd>Тип:&nbsp;<a href="T_OptimisationTasks_DataStructures_LinearProgramming_Matrix">OptimisationTasks.DataStructures.LinearProgramming.Matrix</a><br />\[<param name="m"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.LinearProgramming.LinearTask.#ctor(OptimisationTasks.DataStructures.LinearProgramming.Matrix)"\]</dd></dl>

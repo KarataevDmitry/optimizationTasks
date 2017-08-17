@@ -12,12 +12,6 @@
 public CompiledExpressionItemKind Kind { get; }
 ```
 
-**F#**<br />
-``` F#
-member Kind : CompiledExpressionItemKind with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="T_ELW_Library_Math_Expressions_CompiledExpressionItemKind">CompiledExpressionItemKind</a>

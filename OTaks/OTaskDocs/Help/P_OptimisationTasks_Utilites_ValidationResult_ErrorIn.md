@@ -12,12 +12,6 @@
 public string ErrorIn { get; }
 ```
 
-**F#**<br />
-``` F#
-member ErrorIn : string with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">String</a>

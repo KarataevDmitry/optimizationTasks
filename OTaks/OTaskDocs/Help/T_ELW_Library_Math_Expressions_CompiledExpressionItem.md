@@ -15,12 +15,6 @@ Item of compiled expression.
 public sealed class CompiledExpressionItem
 ```
 
-**F#**<br />
-``` F#
-[<SealedAttribute>]
-type CompiledExpressionItem =  class end
-```
-
 Тип CompiledExpressionItem предоставляет следующие члены.
 
 

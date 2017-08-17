@@ -15,11 +15,6 @@
 public class Simplex
 ```
 
-**F#**<br />
-``` F#
-type Simplex =  class end
-```
-
 Тип Simplex предоставляет следующие члены.
 
 

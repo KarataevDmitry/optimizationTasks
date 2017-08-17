@@ -12,11 +12,6 @@
 public OneDimesionalTaskDefinition()
 ```
 
-**F#**<br />
-``` F#
-new : unit -> OneDimesionalTaskDefinition
-```
-
 
 ## См. также
 

@@ -12,12 +12,6 @@ Kind of operation.
 public OperationKind Kind { get; }
 ```
 
-**F#**<br />
-``` F#
-member Kind : OperationKind with get
-
-```
-
 
 #### Значение свойства
 Тип:&nbsp;<a href="T_ELW_Library_Math_OperationKind">OperationKind</a>

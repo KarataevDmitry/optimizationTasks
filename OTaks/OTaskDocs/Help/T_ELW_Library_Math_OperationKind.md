@@ -12,11 +12,6 @@ Type of operation.
 public enum OperationKind
 ```
 
-**F#**<br />
-``` F#
-type OperationKind
-```
-
 
 ## Члены
 &nbsp;<table><tr><th></th><th>Имя члена</th><th>Значение</th><th>Описание</th></tr><tr><td /><td target="F:ELW.Library.Math.OperationKind.Operator">**Operator**</td><td>1</td><td /></tr><tr><td /><td target="F:ELW.Library.Math.OperationKind.Function">**Function**</td><td>2</td><td /></tr></table>
