@@ -1,7 +1,7 @@
 # OptimisationTasks.DataStructures - пространство имён
  
 
-\[<summary> отсутствует в документации для "N:OptimisationTasks.DataStructures"\]
+Используемые структуры данных
 
 
 ## Классы

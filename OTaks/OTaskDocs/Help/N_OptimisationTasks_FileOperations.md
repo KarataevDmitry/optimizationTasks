@@ -1,7 +1,7 @@
 # OptimisationTasks.FileOperations - пространство имён
  
 
-\[<summary> отсутствует в документации для "N:OptimisationTasks.FileOperations"\]
+CRUD операции с файлами
 
 
 ## Классы

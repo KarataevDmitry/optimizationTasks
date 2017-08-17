@@ -48,6 +48,17 @@
       <DocumentationSource sourceFile="..\OptimisationTasksEditor\OptimisationTasksEditor.csproj" xmlns="" />
       <DocumentationSource sourceFile="..\packages\mathcompiler-0102-src\ELW.Library.Math\ELW.Library.Math.csproj" xmlns="" />
     </DocumentationSources>
+    <NamespaceSummaries>
+      <NamespaceSummaryItem name="(global)" isDocumented="True" xmlns="" />
+<NamespaceSummaryItem name="ELW.Library.Math" isDocumented="True" xmlns="">Парсер математических выражений (не моя разработка)</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OptimisationTasks.DataStructures" isDocumented="True" xmlns="">Используемые структуры данных</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OptimisationTasks.DataStructures.LinearProgramming" isDocumented="True" xmlns="">Используемые структуры для линейного программирования</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OptimisationTasks.FileOperations" isDocumented="True" xmlns="">CRUD операции с файлами</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OptimisationTasks.OptimisationMethods" isDocumented="True" xmlns="">Методы оптимизации</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OptimisationTasks.OptimisationMethods.Linear" isDocumented="True" xmlns="">Линейная оптимизация</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OptimisationTasks.Utilites" isDocumented="True" xmlns="">Различные утилиты</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OptimisationTasksEditor" isDocumented="True" xmlns="">GUI</NamespaceSummaryItem></NamespaceSummaries>
+    <ProjectSummary>Решаемая задача проекта - математическое программирование %28одномерная и многомерная линейная оптимизация с помощью симплекс-метода</ProjectSummary>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->

@@ -1,7 +1,7 @@
 # OptimisationTasks.DataStructures.LinearProgramming - пространство имён
  
 
-\[<summary> отсутствует в документации для "N:OptimisationTasks.DataStructures.LinearProgramming"\]
+Используемые структуры для линейного программирования
 
 
 ## Классы

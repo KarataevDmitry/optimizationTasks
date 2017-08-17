@@ -11,15 +11,26 @@
 		<section>
 			<title>Основные компоненты</title>
 			<content>
-        <para>
-          <legacyBold>
-            <link address="https://habrahabr.ru/post/50158/"> Парсер математических выражений</link>
-          </legacyBold>
-          За парсер спасибо >Хабрапользователю [@elw00d](https://habrahabr.ru/users/elw00d/)
-        </para>
-     
+        <list class="bullet">
+          <listItem>
+            <para>
+              [Парсер математических выражений](https://habrahabr.ru/post/50158/)
+              За парсер спасибо хабрапользователю [@elw00d](https://habrahabr.ru/users/elw00d/)
+            </para>
+          </listItem>
+         
+        </list>
 			</content>
 		</section>
+    <section>
+      <title>Пространства имен </title>
+      <content>
+        <list>
+          <listItem></listItem>
+        </list>
+      </content>
+    </section>
+    
 
 		<relatedTopics>
 			<link xlink:href="f85f2bd1-290d-43ef-becf-827ffce9fb60" />

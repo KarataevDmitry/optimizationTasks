@@ -1,7 +1,7 @@
 # OptimisationTasksEditor - пространство имён
  
 
-\[<summary> отсутствует в документации для "N:OptimisationTasksEditor"\]
+GUI
 
 
 ## Классы

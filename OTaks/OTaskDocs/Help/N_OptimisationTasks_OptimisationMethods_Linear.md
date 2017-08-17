@@ -1,7 +1,7 @@
 # OptimisationTasks.OptimisationMethods.Linear - пространство имён
  
 
-\[<summary> отсутствует в документации для "N:OptimisationTasks.OptimisationMethods.Linear"\]
+Линейная оптимизация
 
 
 ## Классы

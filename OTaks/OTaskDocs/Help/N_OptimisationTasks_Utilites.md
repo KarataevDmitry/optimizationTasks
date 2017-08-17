@@ -1,7 +1,7 @@
 # OptimisationTasks.Utilites - пространство имён
  
 
-\[<summary> отсутствует в документации для "N:OptimisationTasks.Utilites"\]
+Различные утилиты
 
 
 ## Классы

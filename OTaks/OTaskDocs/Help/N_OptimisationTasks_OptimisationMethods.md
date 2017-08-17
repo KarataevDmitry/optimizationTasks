@@ -1,7 +1,7 @@
 # OptimisationTasks.OptimisationMethods - пространство имён
  
 
-\[<summary> отсутствует в документации для "N:OptimisationTasks.OptimisationMethods"\]
+Методы оптимизации
 
 
 ## Классы
