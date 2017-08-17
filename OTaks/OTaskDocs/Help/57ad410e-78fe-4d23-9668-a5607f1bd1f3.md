@@ -9,7 +9,7 @@
 [Парсер математических выражений](https://habrahabr.ru/post/50158/) За парсер спасибо хабрапользователю [@elw00d](https://habrahabr.ru/users/elw00d/)</li></ul>
 
 ## Пространства имен
-&nbsp;<ul style="list-style-type: none; padding-left: 20px;"><li /></ul>
+
 
 ## См. также
 

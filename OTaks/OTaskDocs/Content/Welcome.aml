@@ -25,9 +25,7 @@
     <section>
       <title>Пространства имен </title>
       <content>
-        <list>
-          <listItem></listItem>
-        </list>
+        <autoOutline></autoOutline>
       </content>
     </section>
     
