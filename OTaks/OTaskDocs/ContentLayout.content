@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topics>
-  <Topic id="57ad410e-78fe-4d23-9668-a5607f1bd1f3" visible="True" isDefault="true" isSelected="true" title="Welcome to the [TODO: Add project name]">
+  <Topic id="57ad410e-78fe-4d23-9668-a5607f1bd1f3" visible="True" isDefault="true" isSelected="true" title="OptimisationTasks" tocTitle="Содержание">
     <HelpKeywords>
       <HelpKeyword index="K" term="Welcome" />
     </HelpKeywords>

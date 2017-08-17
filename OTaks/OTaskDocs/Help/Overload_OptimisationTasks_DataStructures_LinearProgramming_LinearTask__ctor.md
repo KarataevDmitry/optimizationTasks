@@ -3,7 +3,9 @@
 
 
 ## Список&nbsp;перегрузок
-&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_DataStructures_LinearProgramming_LinearTask__ctor_1">LinearTask(Double[,])</a></td><td /></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_DataStructures_LinearProgramming_LinearTask__ctor">LinearTask(Matrix)</a></td><td /></tr></table>&nbsp;
+&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_DataStructures_LinearProgramming_LinearTask__ctor_1">LinearTask(Double[,])</a></td><td>
+Инициализирует новый экземпляр класса <a href="T_OptimisationTasks_DataStructures_LinearProgramming_LinearTask">LinearTask</a></td></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_DataStructures_LinearProgramming_LinearTask__ctor">LinearTask(Matrix)</a></td><td>
+Инициализирует новый экземпляр класса <a href="T_OptimisationTasks_DataStructures_LinearProgramming_LinearTask">LinearTask</a></td></tr></table>&nbsp;
 <a href="#lineartask---конструктор">В начало страницы</a>
 
 ## См. также

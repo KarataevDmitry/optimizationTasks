@@ -1,6 +1,8 @@
 # ValidationResult - структура
  
 
+\[<summary> отсутствует в документации для "T:OptimisationTasks.Utilites.ValidationResult"\]
+
 **Пространство имён:**&nbsp;<a href="N_OptimisationTasks_Utilites">OptimisationTasks.Utilites</a><br />**Сборка:**&nbsp;OptimisationTasksEditor (в OptimisationTasksEditor.exe) Версия: 1.0.0.0 (1.0.0.0)
 
 ## Синтаксис
@@ -20,7 +22,8 @@ type ValidationResult =  struct end
 
 
 ## Конструкторы
-&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_Utilites_ValidationResult__ctor">ValidationResult</a></td><td /></tr></table>&nbsp;
+&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_Utilites_ValidationResult__ctor">ValidationResult</a></td><td>
+Инициализирует новый экземпляр класса ValidationResult</td></tr></table>&nbsp;
 <a href="#validationresult---структура">В начало страницы</a>
 
 ## Свойства

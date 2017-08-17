@@ -1,6 +1,8 @@
 # App.Main - метод
  
 
+\[<summary> отсутствует в документации для "M:OptimisationTasksEditor.App.Main"\]
+
 **Пространство имён:**&nbsp;<a href="N_OptimisationTasksEditor">OptimisationTasksEditor</a><br />**Сборка:**&nbsp;OptimisationTasksEditor (в OptimisationTasksEditor.exe) Версия: 1.0.0.0 (1.0.0.0)
 
 ## Синтаксис

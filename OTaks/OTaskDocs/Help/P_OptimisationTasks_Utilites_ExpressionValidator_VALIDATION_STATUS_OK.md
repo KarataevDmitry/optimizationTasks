@@ -1,6 +1,8 @@
 # ExpressionValidator.VALIDATION_STATUS_OK - свойство
  
 
+\[<summary> отсутствует в документации для "P:OptimisationTasks.Utilites.ExpressionValidator.VALIDATION_STATUS_OK"\]
+
 **Пространство имён:**&nbsp;<a href="N_OptimisationTasks_Utilites">OptimisationTasks.Utilites</a><br />**Сборка:**&nbsp;OptimisationTasksEditor (в OptimisationTasksEditor.exe) Версия: 1.0.0.0 (1.0.0.0)
 
 ## Синтаксис

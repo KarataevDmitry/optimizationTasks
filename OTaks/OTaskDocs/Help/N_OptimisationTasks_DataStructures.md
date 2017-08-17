@@ -1,4 +1,8 @@
 # OptimisationTasks.DataStructures - пространство имён
+ 
+
+\[<summary> отсутствует в документации для "N:OptimisationTasks.DataStructures"\]
+
 
 ## Классы
 &nbsp;<table><tr><th></th><th>Класс</th><th>Описание</th></tr><tr><td>![Открытый класс]( "Открытый класс")</td><td><a href="T_OptimisationTasks_DataStructures_Task1D">Task1D</a></td><td /></tr></table>

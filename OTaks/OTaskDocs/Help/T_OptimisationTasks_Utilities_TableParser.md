@@ -1,6 +1,8 @@
 # TableParser - класс
  
 
+\[<summary> отсутствует в документации для "T:OptimisationTasks.Utilities.TableParser"\]
+
 
 ## Иерархия наследования
 <a href="http://msdn2.microsoft.com/ru-ru/library/e5kfa45b" target="_blank">System.Object</a><br />&nbsp;&nbsp;OptimisationTasks.Utilities.TableParser<br />

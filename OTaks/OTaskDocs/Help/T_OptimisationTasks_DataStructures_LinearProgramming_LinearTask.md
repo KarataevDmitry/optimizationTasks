@@ -1,6 +1,8 @@
 # LinearTask - класс
  
 
+\[<summary> отсутствует в документации для "T:OptimisationTasks.DataStructures.LinearProgramming.LinearTask"\]
+
 
 ## Иерархия наследования
 <a href="http://msdn2.microsoft.com/ru-ru/library/e5kfa45b" target="_blank">System.Object</a><br />&nbsp;&nbsp;OptimisationTasks.DataStructures.LinearProgramming.LinearTask<br />
@@ -22,7 +24,9 @@ type LinearTask =  class end
 
 
 ## Конструкторы
-&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_DataStructures_LinearProgramming_LinearTask__ctor_1">LinearTask(Double[,])</a></td><td /></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_DataStructures_LinearProgramming_LinearTask__ctor">LinearTask(Matrix)</a></td><td /></tr></table>&nbsp;
+&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_DataStructures_LinearProgramming_LinearTask__ctor_1">LinearTask(Double[,])</a></td><td>
+Инициализирует новый экземпляр класса LinearTask</td></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_DataStructures_LinearProgramming_LinearTask__ctor">LinearTask(Matrix)</a></td><td>
+Инициализирует новый экземпляр класса LinearTask</td></tr></table>&nbsp;
 <a href="#lineartask---класс">В начало страницы</a>
 
 ## Методы

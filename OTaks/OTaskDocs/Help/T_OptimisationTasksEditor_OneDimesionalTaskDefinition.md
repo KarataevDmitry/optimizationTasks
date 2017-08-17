@@ -1,6 +1,8 @@
 # OneDimesionalTaskDefinition - класс
  
 
+\[<summary> отсутствует в документации для "T:OptimisationTasksEditor.OneDimesionalTaskDefinition"\]
+
 
 ## Иерархия наследования
 <a href="http://msdn2.microsoft.com/ru-ru/library/e5kfa45b" target="_blank">System.Object</a><br />&nbsp;&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/ms615925" target="_blank">System.Windows.Threading.DispatcherObject</a><br />&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/ms589309" target="_blank">System.Windows.DependencyObject</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/ms635637" target="_blank">System.Windows.Media.Visual</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/ms590078" target="_blank">System.Windows.UIElement</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/ms602714" target="_blank">System.Windows.FrameworkElement</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/ms611620" target="_blank">System.Windows.Controls.Page</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/ms615531" target="_blank">System.Windows.Navigation.PageFunctionBase</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/ms615540" target="_blank">System.Windows.Navigation.PageFunction</a>(<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">String</a>)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OptimisationTasksEditor.OneDimesionalTaskDefinition<br />
@@ -27,7 +29,8 @@ type OneDimesionalTaskDefinition =
 
 
 ## Конструкторы
-&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasksEditor_OneDimesionalTaskDefinition__ctor">OneDimesionalTaskDefinition</a></td><td /></tr></table>&nbsp;
+&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasksEditor_OneDimesionalTaskDefinition__ctor">OneDimesionalTaskDefinition</a></td><td>
+Инициализирует новый экземпляр класса OneDimesionalTaskDefinition</td></tr></table>&nbsp;
 <a href="#onedimesionaltaskdefinition---класс">В начало страницы</a>
 
 ## Свойства

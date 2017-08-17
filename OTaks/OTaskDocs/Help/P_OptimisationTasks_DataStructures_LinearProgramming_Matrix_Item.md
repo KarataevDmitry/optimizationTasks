@@ -1,6 +1,8 @@
 # Matrix.Item - свойство
  
 
+\[<summary> отсутствует в документации для "P:OptimisationTasks.DataStructures.LinearProgramming.Matrix.Item(System.Int32,System.Int32)"\]
+
 **Пространство имён:**&nbsp;<a href="N_OptimisationTasks_DataStructures_LinearProgramming">OptimisationTasks.DataStructures.LinearProgramming</a><br />**Сборка:**&nbsp;OptimisationTasksEditor (в OptimisationTasksEditor.exe) Версия: 1.0.0.0 (1.0.0.0)
 
 ## Синтаксис

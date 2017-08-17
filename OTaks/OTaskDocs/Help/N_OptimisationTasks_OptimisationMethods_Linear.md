@@ -1,4 +1,8 @@
 # OptimisationTasks.OptimisationMethods.Linear - пространство имён
+ 
+
+\[<summary> отсутствует в документации для "N:OptimisationTasks.OptimisationMethods.Linear"\]
+
 
 ## Классы
 &nbsp;<table><tr><th></th><th>Класс</th><th>Описание</th></tr><tr><td>![Открытый класс]( "Открытый класс")</td><td><a href="T_OptimisationTasks_OptimisationMethods_Linear_Simplex">Simplex</a></td><td /></tr></table>

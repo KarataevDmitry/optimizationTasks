@@ -1,6 +1,8 @@
 # OptimizationMethod - класс
  
 
+\[<summary> отсутствует в документации для "T:OptimisationTasks.OptimisationMethods.OptimizationMethod"\]
+
 
 ## Иерархия наследования
 <a href="http://msdn2.microsoft.com/ru-ru/library/e5kfa45b" target="_blank">System.Object</a><br />&nbsp;&nbsp;OptimisationTasks.OptimisationMethods.OptimizationMethod<br />&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_OptimisationTasks_OptimisationMethods_GoldenPropOptimisator">OptimisationTasks.OptimisationMethods.GoldenPropOptimisator</a><br />
@@ -23,7 +25,8 @@ type OptimizationMethod =  class end
 
 
 ## Конструкторы
-&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Защищённый метод]( "Защищённый метод")</td><td><a href="M_OptimisationTasks_OptimisationMethods_OptimizationMethod__ctor">OptimizationMethod</a></td><td /></tr></table>&nbsp;
+&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Защищённый метод]( "Защищённый метод")</td><td><a href="M_OptimisationTasks_OptimisationMethods_OptimizationMethod__ctor">OptimizationMethod</a></td><td>
+Инициализирует новый экземпляр класса OptimizationMethod</td></tr></table>&nbsp;
 <a href="#optimizationmethod---класс">В начало страницы</a>
 
 ## Методы

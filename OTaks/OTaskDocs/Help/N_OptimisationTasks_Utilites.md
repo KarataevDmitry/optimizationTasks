@@ -1,4 +1,8 @@
 # OptimisationTasks.Utilites - пространство имён
+ 
+
+\[<summary> отсутствует в документации для "N:OptimisationTasks.Utilites"\]
+
 
 ## Классы
 &nbsp;<table><tr><th></th><th>Класс</th><th>Описание</th></tr><tr><td>![Открытый класс]( "Открытый класс")</td><td><a href="T_OptimisationTasks_Utilites_ExpressionValidator">ExpressionValidator</a></td><td /></tr></table>

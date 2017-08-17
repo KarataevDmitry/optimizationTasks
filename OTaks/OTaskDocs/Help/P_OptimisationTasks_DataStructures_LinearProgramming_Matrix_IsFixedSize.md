@@ -1,6 +1,8 @@
 # Matrix.IsFixedSize - свойство
  
 
+\[<summary> отсутствует в документации для "P:OptimisationTasks.DataStructures.LinearProgramming.Matrix.IsFixedSize"\]
+
 **Пространство имён:**&nbsp;<a href="N_OptimisationTasks_DataStructures_LinearProgramming">OptimisationTasks.DataStructures.LinearProgramming</a><br />**Сборка:**&nbsp;OptimisationTasksEditor (в OptimisationTasksEditor.exe) Версия: 1.0.0.0 (1.0.0.0)
 
 ## Синтаксис

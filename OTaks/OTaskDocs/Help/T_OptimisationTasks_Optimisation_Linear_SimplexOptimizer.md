@@ -1,6 +1,8 @@
 # SimplexOptimizer - класс
  
 
+\[<summary> отсутствует в документации для "T:OptimisationTasks.Optimisation.Linear.SimplexOptimizer"\]
+
 
 ## Иерархия наследования
 <a href="http://msdn2.microsoft.com/ru-ru/library/e5kfa45b" target="_blank">System.Object</a><br />&nbsp;&nbsp;OptimisationTasks.Optimisation.Linear.SimplexOptimizer<br />
@@ -25,7 +27,8 @@ type SimplexOptimizer =
 
 
 ## Конструкторы
-&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_Optimisation_Linear_SimplexOptimizer__ctor">SimplexOptimizer</a></td><td /></tr></table>&nbsp;
+&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_Optimisation_Linear_SimplexOptimizer__ctor">SimplexOptimizer</a></td><td>
+Инициализирует новый экземпляр класса SimplexOptimizer</td></tr></table>&nbsp;
 <a href="#simplexoptimizer---класс">В начало страницы</a>
 
 ## Методы

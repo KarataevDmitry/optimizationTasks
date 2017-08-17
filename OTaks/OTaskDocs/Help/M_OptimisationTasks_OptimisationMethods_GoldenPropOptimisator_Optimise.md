@@ -1,6 +1,8 @@
 # GoldenPropOptimisator.Optimise(Task1D, Double) - метод
  
 
+\[<summary> отсутствует в документации для "M:OptimisationTasks.OptimisationMethods.GoldenPropOptimisator.Optimise(OptimisationTasks.DataStructures.Task1D,System.Double)"\]
+
 **Пространство имён:**&nbsp;<a href="N_OptimisationTasks_OptimisationMethods">OptimisationTasks.OptimisationMethods</a><br />**Сборка:**&nbsp;OptimisationTasksEditor (в OptimisationTasksEditor.exe) Версия: 1.0.0.0 (1.0.0.0)
 
 ## Синтаксис
@@ -33,10 +35,10 @@ override Optimise :
 
 
 #### Параметры
-&nbsp;<dl><dt>t</dt><dd>Тип:&nbsp;<a href="T_OptimisationTasks_DataStructures_Task1D">OptimisationTasks.DataStructures.Task1D</a><br /></dd><dt>eps (Optional)</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a><br /></dd></dl>
+&nbsp;<dl><dt>t</dt><dd>Тип:&nbsp;<a href="T_OptimisationTasks_DataStructures_Task1D">OptimisationTasks.DataStructures.Task1D</a><br />\[<param name="t"/> отсутствует в документации для "M:OptimisationTasks.OptimisationMethods.GoldenPropOptimisator.Optimise(OptimisationTasks.DataStructures.Task1D,System.Double)"\]</dd><dt>eps (Optional)</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">System.Double</a><br />\[<param name="eps"/> отсутствует в документации для "M:OptimisationTasks.OptimisationMethods.GoldenPropOptimisator.Optimise(OptimisationTasks.DataStructures.Task1D,System.Double)"\]</dd></dl>
 
 #### Возвращаемое значение
-Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/b3h38hb0" target="_blank">Nullable</a>(<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">Double</a>)
+Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/b3h38hb0" target="_blank">Nullable</a>(<a href="http://msdn2.microsoft.com/ru-ru/library/643eft0t" target="_blank">Double</a>)<br />\[<returns> отсутствует в документации для "M:OptimisationTasks.OptimisationMethods.GoldenPropOptimisator.Optimise(OptimisationTasks.DataStructures.Task1D,System.Double)"\]
 
 ## См. также
 

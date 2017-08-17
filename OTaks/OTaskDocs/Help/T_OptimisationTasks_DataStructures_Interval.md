@@ -1,6 +1,8 @@
 # Interval - структура
  
 
+\[<summary> отсутствует в документации для "T:OptimisationTasks.DataStructures.Interval"\]
+
 **Пространство имён:**&nbsp;<a href="N_OptimisationTasks_DataStructures">OptimisationTasks.DataStructures</a><br />**Сборка:**&nbsp;OptimisationTasksEditor (в OptimisationTasksEditor.exe) Версия: 1.0.0.0 (1.0.0.0)
 
 ## Синтаксис
@@ -20,7 +22,9 @@ type Interval =  struct end
 
 
 ## Конструкторы
-&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_DataStructures_Interval__ctor_1">Interval(String)</a></td><td /></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_DataStructures_Interval__ctor">Interval(Double, Double)</a></td><td /></tr></table>&nbsp;
+&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_DataStructures_Interval__ctor_1">Interval(String)</a></td><td>
+Инициализирует новый экземпляр класса Interval</td></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_DataStructures_Interval__ctor">Interval(Double, Double)</a></td><td>
+Инициализирует новый экземпляр класса Interval</td></tr></table>&nbsp;
 <a href="#interval---структура">В начало страницы</a>
 
 ## Свойства

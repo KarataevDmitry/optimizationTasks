@@ -1,6 +1,8 @@
 # Interval.Length - свойство
  
 
+\[<summary> отсутствует в документации для "P:OptimisationTasks.DataStructures.Interval.Length"\]
+
 **Пространство имён:**&nbsp;<a href="N_OptimisationTasks_DataStructures">OptimisationTasks.DataStructures</a><br />**Сборка:**&nbsp;OptimisationTasksEditor (в OptimisationTasksEditor.exe) Версия: 1.0.0.0 (1.0.0.0)
 
 ## Синтаксис

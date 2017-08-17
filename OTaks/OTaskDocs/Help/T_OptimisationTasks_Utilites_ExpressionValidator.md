@@ -1,6 +1,8 @@
 # ExpressionValidator - класс
  
 
+\[<summary> отсутствует в документации для "T:OptimisationTasks.Utilites.ExpressionValidator"\]
+
 
 ## Иерархия наследования
 <a href="http://msdn2.microsoft.com/ru-ru/library/e5kfa45b" target="_blank">System.Object</a><br />&nbsp;&nbsp;OptimisationTasks.Utilites.ExpressionValidator<br />
@@ -22,7 +24,8 @@ type ExpressionValidator =  class end
 
 
 ## Конструкторы
-&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_Utilites_ExpressionValidator__ctor">ExpressionValidator</a></td><td /></tr></table>&nbsp;
+&nbsp;<table><tr><th></th><th>Имя</th><th>Описание</th></tr><tr><td>![Открытый метод]( "Открытый метод")</td><td><a href="M_OptimisationTasks_Utilites_ExpressionValidator__ctor">ExpressionValidator</a></td><td>
+Инициализирует новый экземпляр класса ExpressionValidator</td></tr></table>&nbsp;
 <a href="#expressionvalidator---класс">В начало страницы</a>
 
 ## Свойства

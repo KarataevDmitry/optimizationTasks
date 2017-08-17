@@ -44,6 +44,10 @@
     <NamingMethod>MemberName</NamingMethod>
     <HelpTitle>A Sandcastle Documented Class Library</HelpTitle>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
+    <DocumentationSources>
+      <DocumentationSource sourceFile="..\OptimisationTasksEditor\OptimisationTasksEditor.csproj" xmlns="" />
+      <DocumentationSource sourceFile="..\packages\mathcompiler-0102-src\ELW.Library.Math\ELW.Library.Math.csproj" xmlns="" />
+    </DocumentationSources>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->

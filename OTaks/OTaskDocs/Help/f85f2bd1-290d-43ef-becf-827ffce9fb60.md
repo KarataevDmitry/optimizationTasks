@@ -14,4 +14,4 @@ Select a version below to see a description of its changes.
 
 
 #### Другие ресурсы
-<a href="57ad410e-78fe-4d23-9668-a5607f1bd1f3">Welcome to the [TODO: Add project name]</a><br />
+<a href="57ad410e-78fe-4d23-9668-a5607f1bd1f3">Содержание</a><br />

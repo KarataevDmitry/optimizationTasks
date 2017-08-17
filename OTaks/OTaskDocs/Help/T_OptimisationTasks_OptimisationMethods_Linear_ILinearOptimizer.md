@@ -1,6 +1,8 @@
 # ILinearOptimizer - интерфейс
  
 
+\[<summary> отсутствует в документации для "T:OptimisationTasks.OptimisationMethods.Linear.ILinearOptimizer"\]
+
 **Пространство имён:**&nbsp;<a href="N_OptimisationTasks_OptimisationMethods_Linear">OptimisationTasks.OptimisationMethods.Linear</a><br />**Сборка:**&nbsp;OptimisationTasksEditor (в OptimisationTasksEditor.exe) Версия: 1.0.0.0 (1.0.0.0)
 
 ## Синтаксис

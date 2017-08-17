@@ -1,6 +1,8 @@
 # Matrix.RaiseMatrixChanged - метод
  
 
+\[<summary> отсутствует в документации для "M:OptimisationTasks.DataStructures.LinearProgramming.Matrix.RaiseMatrixChanged(System.String)"\]
+
 **Пространство имён:**&nbsp;<a href="N_OptimisationTasks_DataStructures_LinearProgramming">OptimisationTasks.DataStructures.LinearProgramming</a><br />**Сборка:**&nbsp;OptimisationTasksEditor (в OptimisationTasksEditor.exe) Версия: 1.0.0.0 (1.0.0.0)
 
 ## Синтаксис
@@ -21,7 +23,7 @@ member RaiseMatrixChanged :
 
 
 #### Параметры
-&nbsp;<dl><dt>propName</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br /></dd></dl>
+&nbsp;<dl><dt>propName</dt><dd>Тип:&nbsp;<a href="http://msdn2.microsoft.com/ru-ru/library/s1wwdcbf" target="_blank">System.String</a><br />\[<param name="propName"/> отсутствует в документации для "M:OptimisationTasks.DataStructures.LinearProgramming.Matrix.RaiseMatrixChanged(System.String)"\]</dd></dl>
 
 ## См. также
 
